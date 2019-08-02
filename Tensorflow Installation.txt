@@ -1,0 +1,89 @@
+----------Tensorflow versión CPU------------------
+
+Requerimientos Básicos:
+
+-Sistema Operativo de 64 bits
+- Windows 7 o posterior
+- macOS 10.12.6 (Sierra) o posterior (sólo CPU)
+- Ubuntu 16.04 o posterior
+
+Si se cumplen con los requerimientos, únicamente se tiene que instalar la versión que corresponda a la versión actual de Python: 
+
+Python 3.6.x : tensorflow 1.12.x (>pip install --upgrade tensorflow==1.12.0)
+Python 3.7.x : tensorflow 1.13.x (>pip install --upgrade tensorflow==1.31.1)
+Tabla de compatibilidad de versiones: https://www.tensorflow.org/install/source#linux
+
+Nota: --upgrade por defecto revisa todas las dependencias que requiere el paquete y las actualiza sólo si es necesario
+Nota2: >python --version o >conda list python se pueden usar para verificar la versión de python que se tiene en la PC
+Nota3: >conda update python (cambiará todas las librerías para hacerlas compatibles con la versión más reciente, ie 3.7)
+
+Verificar que funciona: (en Python/Jupyter) 
+>import tensorflow as tf
+>print(tf.__version__)
+
+Para desinstalar e intentar de nuevo: >pip uninstall tensorflow
+
+Creación de ambientes de Anaconda: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Si tienes un ambiente con una versión más vieja de Python, puedes crear uno nuevo para añadir una versión diferente de Python (y otras librerías) sin eliminar la que tienes ahora.
+
+>conda create env --name myenv python=3.6 scipy=0.15.0 numpy (ejemplo)
+>conda remove --name myenv --all
+>conda info --envs
+>conda env list
+>(source) conda activate myenv #source se requiere para Mac y Linux en versiones previas a conda 4.6 (conda --version)
+>(source) deactivate
+
+Si creas un nuevo ambiente es probable que no tenga jupyter instalado
+>conda install jupyter
+>jupyter kernelspec list #lista de kernels de jupyter instalados
+>python -m ipykernel install --user --name myenv --display-name "Python (myenv)" #añade el kernel al notebook
+
+
+----------Tensorflow versión GPU (Windows)------------------
+
+Nota: esta guía es para la versión la versión de tensorflow-gpu 1.13.1 (python 3.7) en Windows 10, ve referencias si tienes python 3.6 para instalar tensorflow 1.12. Si tienes una versión anterior de Windows
+
+Requerimientos: 
+
+-Mismos requermientos que versión CPU (incluyendo versiones de python)
+-Tarjeta gráfica NVIDIA con soporte para CUDA y capacidad mayor a 3.5 (https://developer.nvidia.com/cuda-gpus)
+-Driver NVIDIA versión 410.x o superior (Panel de Control NVIDIA->Información del Sistema)
+-Instalación librerías c++ y g++ (Visual Studio IDE Community Edition 2017,sólo se necesitan los componentes de Windows y C++)
+-Instalación CUDA 10.0 (se requiere para tensorflow>=1.13.0, CUDA 10.1 no es compatilbe con tensorflow aún)
+-Instalación cuDNN SDK 7.4.1 o superior (7.4.2 puede no funcionar con tensorflow 1.13)
+-Instalación Tensorflow-gpu 1.13.1
+
+Importante: Al realizar las instalaciones debes correr los programas/archivos como administrador, de lo contrario la instalación puede atorarse o mandar un error.
+
+1. Para actualizar el driver, de ser necesario, puedes hacerlo directamente desde NVIDIA GeForce Experience si tienes tarjeta GeForce
+2. Para la instalación de Visual Studio sólo son necesarios los componenetes: Desarrollo Para Escritorio con C++, Desarrollo de la plataforma universal de Windows.
+3. Descarga la vesión 10.0 de CUDA (https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal) 10.1 no es compatible con Tensorflow 1.13
+4. Para verificar que instalaste CUDA correctamente, puedes ejecutar los archivos de prueba de CUDA con Visual Studio (https://docs.nvidia.com/cuda/archive/10.0/cuda-installation-guide-microsoft-windows/index.html)
+5. Descarga cuDNN v 7.4.1 (7.4.2 puede no funcionar con tensorflow 1.13) Para esto necesitar crear una cuenta de NVIDIA developer (es gratuito y sólo se requiere tu correo). Descarga el archivo zip.
+6. Extrae los archivos del archivo zip y copia la carpeta en la ubicación que desees (en mi caso: C:\cudnn-10.0-windows10-x64-v7.4.1.5) 
+7. Añade las direcciones de las 3 subcarpetas de CUDNN a la variable PATH en Panel de Control-> Sistema->Configuración Avanzada del sistema->Variables de entorno->variables del sistema->PATH. (En este punto puedes revisar si tienes python 3.7 y actualizar o reinstalar Anaconda si hay problemas)
+8. En la terminal de Anaconda (Anaconda command prompt) escribe: pip install --ignore-installed --upgrade tensorflow-gpu
+
+Verifica la instalación ejecutando el siguiente código en Python:
+>import tensorflow as tf #si no hay errores la instalación funciona
+>print(tf.__version__)
+>tf.test.is_built_with_cuda() #True si tienes la instalación con CUDA
+>tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None) #regresa la GPU que tienes y corre algunas pruebas
+
+Referencias: 
+-https://www.youtube.com/watch?v=HExRhnO5Mqs
+-https://www.tensorflow.org/install/gpu
+-https://www.tensorflow.org/install
+
+----------Tensorflow versión GPU (Mac)------------------
+Oficialmente, no hay soporte de tensorflow-gpu para Mac. Sin embargo, si tienes GPU NVIDIA compatible con CUDA puedes hacer la instalación de manera análoga a la versión de Windows (mismas versiones de los programas/librerías) y probar si funciona.
+
+Aquí hay una referencia de instalación para una versión vieja, principalmente se deberían cambiar las versiones del software a las mencionadas arriba en la sección de Windows: https://gist.github.com/phmagic/2b2960a5b7691d8567bcff577eb6b907
+
+----------Tensorflow CPU/GPU con Docker---------------------
+
+Se puede hacer una instalación en una máquina virtual de manera sencilla usando Docker
+https://www.youtube.com/watch?v=WgItFfL4C1A (Windows 10)
+https://www.youtube.com/watch?v=W3bk2pojLoU (Linux)
+
+Referencia: https://www.tensorflow.org/install/docker

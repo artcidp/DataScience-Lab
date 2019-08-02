@@ -1,0 +1,31 @@
+#Mac garbage
+.DS_Store
+
+#LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.ptc
+*/legacy/*
+*/auto/*
+
+#Notebook Checkpoints
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints
+
+#cache
+*__pycache__*
+*/__pycache__*
+*/tmp/*
+*/_init_.py*
+*.pyc
+*/._*
+*._*
+
+#folders
+
+#archivos grandes
+*creditcard.*
+
+

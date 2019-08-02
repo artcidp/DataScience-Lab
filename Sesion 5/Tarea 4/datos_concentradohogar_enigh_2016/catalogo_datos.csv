@@ -1,0 +1,963 @@
+clase_hog,descripcion,,educa_jefe,descripcion,,est_socio,descripcion,,sexo,descripcion,,tam_loc,descripcion,,,,,,ubica_geo,cve_ent,nom_ent,cve_mun,nom_mun
+1,Unipersonal,,1,Sin instrucción,,1,Bajo,,1,Hombre,,1,Localidades con 100 000 y más habitantes,,,,,,10010000,1,Aguascalientes,1,Aguascalientes
+2,Nuclear,,2,Preescolar,,2,Medio bajo,,2,Mujer,,2,Localidades con 15 000 a 99 999 habitantes,,,,,,10020000,1,Aguascalientes,2,Asientos
+3,Ampliado,,3,Primaria incompleta,,3,Medio alto,,,,,3,Localidades con 2 500 a 14 999 habitantes,,,,,,10030000,1,Aguascalientes,3,Calvillo
+4,Compuesto,,4,Primaria completa,,4,Alto,,,,,4,Localidades con menos de 2 500 habitantes,,,,,,10040000,1,Aguascalientes,4,Cos�ío
+5,Corresidente,,5,Secundaria incompleta,,,,,,,,,,,,,,,10050000,1,Aguascalientes,5,Jes�ús Mar�ía
+,,,6,Secundaria completa,,,,,,,,,,,,,,,10060000,1,Aguascalientes,6,Pabell�ón de Arteaga
+,,,7,Preparatoria incompleta,,,,,,,,,,,,,,,10070000,1,Aguascalientes,7,Rinc�ón de Romos
+,,,8,Preparatoria completa,,,,,,,,,,,,,,,10090000,1,Aguascalientes,9,Tepezal�á
+,,,9,Profesional incompleta,,,,,,,,,,,,,,,10100000,1,Aguascalientes,10,El Llano
+,,,10,Profesional completa,,,,,,,,,,,,,,,10110000,1,Aguascalientes,11,San Francisco de los Romo
+,,,11,Posgrado,,,,,,,,,,,,,,,20010000,2,Baja California,1,Ensenada
+,,,,,,,,,,,,,,,,,,,20020000,2,Baja California,2,Mexicali
+,,,,,,,,,,,,,,,,,,,20030000,2,Baja California,3,Tecate
+,,,,,,,,,,,,,,,,,,,20040000,2,Baja California,4,Tijuana
+,,,,,,,,,,,,,,,,,,,20050000,2,Baja California,5,Playas de Rosarito
+,,,,,,,,,,,,,,,,,,,30010000,3,Baja California Sur,1,Comond�ú
+,,,,,,,,,,,,,,,,,,,30020000,3,Baja California Sur,2,Muleg�é
+,,,,,,,,,,,,,,,,,,,30030000,3,Baja California Sur,3,La Paz
+,,,,,,,,,,,,,,,,,,,30080000,3,Baja California Sur,8,Los Cabos
+,,,,,,,,,,,,,,,,,,,30090000,3,Campeche,9,Campeche
+,,,,,,,,,,,,,,,,,,,40010000,4,Campeche,1,Carmen
+,,,,,,,,,,,,,,,,,,,40020000,4,Campeche,2,Champot�ón
+,,,,,,,,,,,,,,,,,,,40030000,4,Campeche,3,Hecelchak�án
+,,,,,,,,,,,,,,,,,,,40040000,4,Campeche,4,Hopelch�én
+,,,,,,,,,,,,,,,,,,,40050000,4,Campeche,5,Palizada
+,,,,,,,,,,,,,,,,,,,40060000,4,Campeche,6,Esc�árcega
+,,,,,,,,,,,,,,,,,,,40070000,4,Campeche,7,Calakmul
+,,,,,,,,,,,,,,,,,,,40080000,4,Campeche,8,Candelaria
+,,,,,,,,,,,,,,,,,,,40090000,4,Coahuila de Zaragoza,9,Arteaga
+,,,,,,,,,,,,,,,,,,,40100000,4,Coahuila de Zaragoza,10,Casta�ños
+,,,,,,,,,,,,,,,,,,,40110000,4,Coahuila de Zaragoza,11,Cuatro Ci�énegas
+,,,,,,,,,,,,,,,,,,,50020000,5,Coahuila de Zaragoza,2,Francisco I. Madero
+,,,,,,,,,,,,,,,,,,,50030000,5,Coahuila de Zaragoza,3,Jim�énez
+,,,,,,,,,,,,,,,,,,,50040000,5,Coahuila de Zaragoza,4,Matamoros
+,,,,,,,,,,,,,,,,,,,50060000,5,Coahuila de Zaragoza,6,M�úzquiz
+,,,,,,,,,,,,,,,,,,,50070000,5,Coahuila de Zaragoza,7,Nava
+,,,,,,,,,,,,,,,,,,,50090000,5,Coahuila de Zaragoza,9,Ocampo
+,,,,,,,,,,,,,,,,,,,50100000,5,Coahuila de Zaragoza,10,Parras
+,,,,,,,,,,,,,,,,,,,50140000,5,Coahuila de Zaragoza,14,Ramos Arizpe
+,,,,,,,,,,,,,,,,,,,50170000,5,Coahuila de Zaragoza,17,Saltillo
+,,,,,,,,,,,,,,,,,,,50180000,5,Coahuila de Zaragoza,18,San Pedro
+,,,,,,,,,,,,,,,,,,,50190000,5,Coahuila de Zaragoza,19,Torre�ón
+,,,,,,,,,,,,,,,,,,,50200000,5,Colima,20,Armer�ía
+,,,,,,,,,,,,,,,,,,,50210000,5,Colima,21,Colima
+,,,,,,,,,,,,,,,,,,,50220000,5,Colima,22,Comala
+,,,,,,,,,,,,,,,,,,,50230000,5,Colima,23,Coquimatl�án
+,,,,,,,,,,,,,,,,,,,50240000,5,Colima,24,Cuauht�émoc
+,,,,,,,,,,,,,,,,,,,50250000,5,Colima,25,Ixtlahuac�án
+,,,,,,,,,,,,,,,,,,,50260000,5,Colima,26,Manzanillo
+,,,,,,,,,,,,,,,,,,,50270000,5,Colima,27,Minatitl�án
+,,,,,,,,,,,,,,,,,,,50280000,5,Colima,28,Tecom�án
+,,,,,,,,,,,,,,,,,,,50300000,5,Colima,30,Villa de �Álvarez
+,,,,,,,,,,,,,,,,,,,50310000,5,Chiapas,31,Acala
+,,,,,,,,,,,,,,,,,,,50320000,5,Chiapas,32,Altamirano
+,,,,,,,,,,,,,,,,,,,50330000,5,Chiapas,33,Arriaga
+,,,,,,,,,,,,,,,,,,,50350000,5,Chiapas,35,Bochil
+,,,,,,,,,,,,,,,,,,,50360000,5,Chiapas,36,Comit�án de Dom�ínguez
+,,,,,,,,,,,,,,,,,,,50370000,5,Chiapas,37,Chamula
+,,,,,,,,,,,,,,,,,,,50380000,5,Chiapas,38,Chiapa de Corzo
+,,,,,,,,,,,,,,,,,,,60010000,6,Chiapas,1,Frontera Comalapa
+,,,,,,,,,,,,,,,,,,,60020000,6,Chiapas,2,La Independencia
+,,,,,,,,,,,,,,,,,,,60030000,6,Chiapas,3,Larr�áinzar
+,,,,,,,,,,,,,,,,,,,60040000,6,Chiapas,4,Mapastepec
+,,,,,,,,,,,,,,,,,,,60050000,6,Chiapas,5,Ocozocoautla de Espinosa
+,,,,,,,,,,,,,,,,,,,60060000,6,Chiapas,6,Oxchuc
+,,,,,,,,,,,,,,,,,,,60070000,6,Chiapas,7,Salto de Agua
+,,,,,,,,,,,,,,,,,,,60080000,6,Chiapas,8,San Crist�óbal de las Casas
+,,,,,,,,,,,,,,,,,,,60090000,6,Chiapas,9,Siltepec
+,,,,,,,,,,,,,,,,,,,60100000,6,Chiapas,10,Socoltenango
+,,,,,,,,,,,,,,,,,,,70010000,7,Chiapas,1,Tapachula
+,,,,,,,,,,,,,,,,,,,70020000,7,Chiapas,2,Tenejapa
+,,,,,,,,,,,,,,,,,,,70030000,7,Chiapas,3,Tila
+,,,,,,,,,,,,,,,,,,,70040000,7,Chiapas,4,La Trinitaria
+,,,,,,,,,,,,,,,,,,,70060000,7,Chiapas,6,Villaflores
+,,,,,,,,,,,,,,,,,,,70090000,7,Chiapas,9,Aldama
+,,,,,,,,,,,,,,,,,,,70130000,7,Chihuahua,13,Bach�íniva
+,,,,,,,,,,,,,,,,,,,70170000,7,Chihuahua,17,Balleza
+,,,,,,,,,,,,,,,,,,,70180000,7,Chihuahua,18,Bocoyna
+,,,,,,,,,,,,,,,,,,,70190000,7,Chihuahua,19,Buenaventura
+,,,,,,,,,,,,,,,,,,,70210000,7,Chihuahua,21,Carich�í
+,,,,,,,,,,,,,,,,,,,70230000,7,Chihuahua,23,La Cruz
+,,,,,,,,,,,,,,,,,,,70240000,7,Chihuahua,24,Cuauht�émoc
+,,,,,,,,,,,,,,,,,,,70270000,7,Chihuahua,27,Cusihuiriachi
+,,,,,,,,,,,,,,,,,,,70290000,7,Chihuahua,29,Ch�ínipas
+,,,,,,,,,,,,,,,,,,,70340000,7,Chihuahua,34,Delicias
+,,,,,,,,,,,,,,,,,,,70370000,7,Chihuahua,37,Guazapares
+,,,,,,,,,,,,,,,,,,,70410000,7,Chihuahua,41,Guerrero
+,,,,,,,,,,,,,,,,,,,70460000,7,Chihuahua,46,Madera
+,,,,,,,,,,,,,,,,,,,70470000,7,Chihuahua,47,Moris
+,,,,,,,,,,,,,,,,,,,70490000,7,Chihuahua,49,Namiquipa
+,,,,,,,,,,,,,,,,,,,70510000,7,Chihuahua,51,Ocampo
+,,,,,,,,,,,,,,,,,,,70530000,7,Chihuahua,53,Ojinaga
+,,,,,,,,,,,,,,,,,,,70610000,7,Chihuahua,61,Rosario
+,,,,,,,,,,,,,,,,,,,70640000,7,Chihuahua,64,Santa B�árbara
+,,,,,,,,,,,,,,,,,,,70650000,7,Chihuahua,65,Saucillo
+,,,,,,,,,,,,,,,,,,,70660000,7,Ciudad de M�éxico,66,Cuajimalpa de Morelos
+,,,,,,,,,,,,,,,,,,,70690000,7,Ciudad de M�éxico,69,Milpa Alta
+,,,,,,,,,,,,,,,,,,,70710000,7,Ciudad de M�éxico,71,Tl�áhuac
+,,,,,,,,,,,,,,,,,,,70750000,7,Ciudad de M�éxico,75,Tlalpan
+,,,,,,,,,,,,,,,,,,,70770000,7,Ciudad de M�éxico,77,Xochimilco
+,,,,,,,,,,,,,,,,,,,70780000,7,Durango,78,Canatl�án
+,,,,,,,,,,,,,,,,,,,70790000,7,Durango,79,Cuencam�é
+,,,,,,,,,,,,,,,,,,,70800000,7,Durango,80,Durango
+,,,,,,,,,,,,,,,,,,,70830000,7,Durango,83,General Sim�ón Bol�ívar
+,,,,,,,,,,,,,,,,,,,70890000,7,Durango,89,G�ómez Palacio
+,,,,,,,,,,,,,,,,,,,70930000,7,Durango,93,Guadalupe Victoria
+,,,,,,,,,,,,,,,,,,,70960000,7,Durango,96,Guanacev�í
+,,,,,,,,,,,,,,,,,,,70970000,7,Durango,97,Hidalgo
+,,,,,,,,,,,,,,,,,,,70990000,7,Durango,99,Lerdo
+,,,,,,,,,,,,,,,,,,,71010000,7,Durango,101,Mapim�í
+,,,,,,,,,,,,,,,,,,,71020000,7,Durango,102,Nazas
+,,,,,,,,,,,,,,,,,,,71030000,7,Durango,103,Nombre de Dios
+,,,,,,,,,,,,,,,,,,,71060000,7,Durango,106,P�ánuco de Coronado
+,,,,,,,,,,,,,,,,,,,71080000,7,Durango,108,Pe�ñ�ón Blanco
+,,,,,,,,,,,,,,,,,,,71110000,7,Durango,111,Pueblo Nuevo
+,,,,,,,,,,,,,,,,,,,71120000,7,Durango,112,San Juan de Guadalupe
+,,,,,,,,,,,,,,,,,,,71130000,7,Durango,113,San Pedro del Gallo
+,,,,,,,,,,,,,,,,,,,80060000,8,Durango,6,Santa Clara
+,,,,,,,,,,,,,,,,,,,80070000,8,Durango,7,Santiago Papasquiaro
+,,,,,,,,,,,,,,,,,,,80090000,8,Durango,9,Nuevo Ideal
+,,,,,,,,,,,,,,,,,,,80100000,8,Guanajuato,10,Abasolo
+,,,,,,,,,,,,,,,,,,,80110000,8,Guanajuato,11,Ac�ámbaro
+,,,,,,,,,,,,,,,,,,,80120000,8,Guanajuato,12,San Miguel de Allende
+,,,,,,,,,,,,,,,,,,,80160000,8,Guanajuato,16,Apaseo el Alto
+,,,,,,,,,,,,,,,,,,,80170000,8,Guanajuato,17,Apaseo el Grande
+,,,,,,,,,,,,,,,,,,,80180000,8,Guanajuato,18,Celaya
+,,,,,,,,,,,,,,,,,,,80190000,8,Guanajuato,19,Comonfort
+,,,,,,,,,,,,,,,,,,,80200000,8,Guanajuato,20,Dolores Hidalgo Cuna de la Independencia Nacional
+,,,,,,,,,,,,,,,,,,,80210000,8,Guanajuato,21,Guanajuato
+,,,,,,,,,,,,,,,,,,,80230000,8,Guanajuato,23,Irapuato
+,,,,,,,,,,,,,,,,,,,80270000,8,Guanajuato,27,Jer�écuaro
+,,,,,,,,,,,,,,,,,,,80280000,8,Guanajuato,28,Le�ón
+,,,,,,,,,,,,,,,,,,,80290000,8,Guanajuato,29,P�énjamo
+,,,,,,,,,,,,,,,,,,,80300000,8,Guanajuato,30,Salamanca
+,,,,,,,,,,,,,,,,,,,80310000,8,Guanajuato,31,Salvatierra
+,,,,,,,,,,,,,,,,,,,80320000,8,Guanajuato,32,San Felipe
+,,,,,,,,,,,,,,,,,,,80340000,8,Guanajuato,34,San Francisco del Rinc�ón
+,,,,,,,,,,,,,,,,,,,80350000,8,Guanajuato,35,San Jos�é Iturbide
+,,,,,,,,,,,,,,,,,,,80360000,8,Guanajuato,36,San Luis de la Paz
+,,,,,,,,,,,,,,,,,,,80370000,8,Guanajuato,37,Santa Cruz de Juventino Rosas
+,,,,,,,,,,,,,,,,,,,80380000,8,Guanajuato,38,Silao
+,,,,,,,,,,,,,,,,,,,80400000,8,Guanajuato,40,Uriangato
+,,,,,,,,,,,,,,,,,,,80430000,8,Guanajuato,43,Yuriria
+,,,,,,,,,,,,,,,,,,,80450000,8,Guerrero,45,Acapulco de Ju�árez
+,,,,,,,,,,,,,,,,,,,80470000,8,Guerrero,47,Arcelia
+,,,,,,,,,,,,,,,,,,,80480000,8,Guerrero,48,Ayutla de los Libres
+,,,,,,,,,,,,,,,,,,,80500000,8,Guerrero,50,Coahuayutla de Jos�é Mar�ía Izazaga
+,,,,,,,,,,,,,,,,,,,80510000,8,Guerrero,51,Copala
+,,,,,,,,,,,,,,,,,,,80520000,8,Guerrero,52,Coyuca de Ben�ítez
+,,,,,,,,,,,,,,,,,,,80530000,8,Guerrero,53,Cuautepec
+,,,,,,,,,,,,,,,,,,,80550000,8,Guerrero,55,Cutzamala de Pinz�ón
+,,,,,,,,,,,,,,,,,,,80560000,8,Guerrero,56,Chilpancingo de los Bravo
+,,,,,,,,,,,,,,,,,,,80600000,8,Guerrero,60,Huitzuco de los Figueroa
+,,,,,,,,,,,,,,,,,,,80620000,8,Guerrero,62,Zihuatanejo de Azueta
+,,,,,,,,,,,,,,,,,,,80640000,8,Guerrero,64,Olinal�á
+,,,,,,,,,,,,,,,,,,,90020000,9,Guerrero,2,Ometepec
+,,,,,,,,,,,,,,,,,,,90030000,9,Guerrero,3,Quechultenango
+,,,,,,,,,,,,,,,,,,,90040000,9,Guerrero,4,San Marcos
+,,,,,,,,,,,,,,,,,,,90050000,9,Guerrero,5,Taxco de Alarc�ón
+,,,,,,,,,,,,,,,,,,,90060000,9,Guerrero,6,T�écpan de Galeana
+,,,,,,,,,,,,,,,,,,,90070000,9,Guerrero,7,La Uni�ón de Isidoro Montes de Oca
+,,,,,,,,,,,,,,,,,,,90080000,9,Guerrero,8,Xalpatl�áhuac
+,,,,,,,,,,,,,,,,,,,90090000,9,Guerrero,9,Zapotitl�án Tablas
+,,,,,,,,,,,,,,,,,,,90100000,9,Hidalgo,10,Almoloya
+,,,,,,,,,,,,,,,,,,,90110000,9,Hidalgo,11,Huautla
+,,,,,,,,,,,,,,,,,,,90120000,9,Hidalgo,12,Huehuetla
+,,,,,,,,,,,,,,,,,,,90130000,9,Hidalgo,13,Huejutla de Reyes
+,,,,,,,,,,,,,,,,,,,90140000,9,Hidalgo,14,Huichapan
+,,,,,,,,,,,,,,,,,,,90150000,9,Hidalgo,15,Ixmiquilpan
+,,,,,,,,,,,,,,,,,,,90160000,9,Hidalgo,16,Metztitl�án
+,,,,,,,,,,,,,,,,,,,90170000,9,Hidalgo,17,San Felipe Orizatl�án
+,,,,,,,,,,,,,,,,,,,100010000,10,Hidalgo,1,Pachuca de Soto
+,,,,,,,,,,,,,,,,,,,100040000,10,Hidalgo,4,Pisaflores
+,,,,,,,,,,,,,,,,,,,100050000,10,Hidalgo,5,Mineral de la Reforma
+,,,,,,,,,,,,,,,,,,,100060000,10,Hidalgo,6,San Bartolo Tutotepec
+,,,,,,,,,,,,,,,,,,,100070000,10,Hidalgo,7,Santiago Tulantepec de Lugo Guerrero
+,,,,,,,,,,,,,,,,,,,100080000,10,Hidalgo,8,Tepehuac�án de Guerrero
+,,,,,,,,,,,,,,,,,,,100090000,10,Hidalgo,9,Tepeji del R�ío de Ocampo
+,,,,,,,,,,,,,,,,,,,100100000,10,Hidalgo,10,Tezontepec de Aldama
+,,,,,,,,,,,,,,,,,,,100120000,10,Hidalgo,12,Tizayuca
+,,,,,,,,,,,,,,,,,,,100130000,10,Hidalgo,13,Tlanchinol
+,,,,,,,,,,,,,,,,,,,100150000,10,Hidalgo,15,Tolcayuca
+,,,,,,,,,,,,,,,,,,,100160000,10,Hidalgo,16,Tulancingo de Bravo
+,,,,,,,,,,,,,,,,,,,100180000,10,Hidalgo,18,Zacualtip�án de �Ángeles
+,,,,,,,,,,,,,,,,,,,100200000,10,Hidalgo,20,Zimap�án
+,,,,,,,,,,,,,,,,,,,100210000,10,Jalisco,21,Atotonilco el Alto
+,,,,,,,,,,,,,,,,,,,100230000,10,Jalisco,23,Autl�án de Navarro
+,,,,,,,,,,,,,,,,,,,100270000,10,Jalisco,27,Ayotl�án
+,,,,,,,,,,,,,,,,,,,100280000,10,Jalisco,28,Encarnaci�ón de D�íaz
+,,,,,,,,,,,,,,,,,,,100300000,10,Jalisco,30,Jilotl�án de los Dolores
+,,,,,,,,,,,,,,,,,,,100310000,10,Jalisco,31,Magdalena
+,,,,,,,,,,,,,,,,,,,100320000,10,Jalisco,32,Mazamitla
+,,,,,,,,,,,,,,,,,,,100390000,10,Jalisco,39,Ocotl�án
+,,,,,,,,,,,,,,,,,,,110010000,11,Jalisco,1,El Salto
+,,,,,,,,,,,,,,,,,,,110020000,11,Jalisco,2,San Juan de los Lagos
+,,,,,,,,,,,,,,,,,,,110030000,11,Jalisco,3,Teocuitatl�án de Corona
+,,,,,,,,,,,,,,,,,,,110040000,11,Jalisco,4,Tlajomulco de Z�ú�ñiga
+,,,,,,,,,,,,,,,,,,,110050000,11,Jalisco,5,Tlaquepaque
+,,,,,,,,,,,,,,,,,,,110070000,11,Jalisco,7,Tonal�á
+,,,,,,,,,,,,,,,,,,,110080000,11,Jalisco,8,Tuxcueca
+,,,,,,,,,,,,,,,,,,,110090000,11,Jalisco,9,Villa Corona
+,,,,,,,,,,,,,,,,,,,110140000,11,Jalisco,14,Zapopan
+,,,,,,,,,,,,,,,,,,,110150000,11,Jalisco,15,Zapotlanejo
+,,,,,,,,,,,,,,,,,,,110170000,11,Jalisco,17,San Ignacio Cerro Gordo
+,,,,,,,,,,,,,,,,,,,110180000,11,M�éxico,18,Almoloya de Ju�árez
+,,,,,,,,,,,,,,,,,,,110190000,11,M�éxico,19,Atenco
+,,,,,,,,,,,,,,,,,,,110200000,11,M�éxico,20,Ayapango
+,,,,,,,,,,,,,,,,,,,110230000,11,M�éxico,23,Cuautitl�án
+,,,,,,,,,,,,,,,,,,,110250000,11,M�éxico,25,Chalco
+,,,,,,,,,,,,,,,,,,,110270000,11,M�éxico,27,Chiautla
+,,,,,,,,,,,,,,,,,,,110280000,11,M�éxico,28,Hueypoxtla
+,,,,,,,,,,,,,,,,,,,110300000,11,M�éxico,30,Ixtapaluca
+,,,,,,,,,,,,,,,,,,,110310000,11,M�éxico,31,Jiquipilco
+,,,,,,,,,,,,,,,,,,,110320000,11,M�éxico,32,Lerma
+,,,,,,,,,,,,,,,,,,,110330000,11,M�éxico,33,Metepec
+,,,,,,,,,,,,,,,,,,,110350000,11,M�éxico,35,Naucalpan de Ju�árez
+,,,,,,,,,,,,,,,,,,,110370000,11,M�éxico,37,Nextlalpan
+,,,,,,,,,,,,,,,,,,,110410000,11,M�éxico,41,El Oro
+,,,,,,,,,,,,,,,,,,,110420000,11,M�éxico,42,La Paz
+,,,,,,,,,,,,,,,,,,,110430000,11,M�éxico,43,San Mateo Atenco
+,,,,,,,,,,,,,,,,,,,110440000,11,M�éxico,44,Tec�ámac
+,,,,,,,,,,,,,,,,,,,110460000,11,M�éxico,46,Temascalcingo
+,,,,,,,,,,,,,,,,,,,120010000,12,M�éxico,1,Temoaya
+,,,,,,,,,,,,,,,,,,,120020000,12,M�éxico,2,Tenango del Valle
+,,,,,,,,,,,,,,,,,,,120070000,12,M�éxico,7,Texcoco
+,,,,,,,,,,,,,,,,,,,120110000,12,M�éxico,11,Tlatlaya
+,,,,,,,,,,,,,,,,,,,120120000,12,M�éxico,12,Toluca
+,,,,,,,,,,,,,,,,,,,120140000,12,M�éxico,14,Tultepec
+,,,,,,,,,,,,,,,,,,,120150000,12,M�éxico,15,Tultitl�án
+,,,,,,,,,,,,,,,,,,,120160000,12,M�éxico,16,Villa de Allende
+,,,,,,,,,,,,,,,,,,,120170000,12,M�éxico,17,Villa Guerrero
+,,,,,,,,,,,,,,,,,,,120180000,12,M�éxico,18,Villa Victoria
+,,,,,,,,,,,,,,,,,,,120200000,12,M�éxico,20,Zinacantepec
+,,,,,,,,,,,,,,,,,,,120210000,12,M�éxico,21,Zumpango
+,,,,,,,,,,,,,,,,,,,120230000,12,M�éxico,23,Cuautitl�án Izcalli
+,,,,,,,,,,,,,,,,,,,120250000,12,M�éxico,25,San Jos�é del Rinc�ón
+,,,,,,,,,,,,,,,,,,,120270000,12,Michoac�án de Ocampo,27,Coahuayana
+,,,,,,,,,,,,,,,,,,,120280000,12,Michoac�án de Ocampo,28,Hidalgo
+,,,,,,,,,,,,,,,,,,,120290000,12,Michoac�án de Ocampo,29,Jungapeo
+,,,,,,,,,,,,,,,,,,,120340000,12,Michoac�án de Ocampo,34,L�ázaro C�árdenas
+,,,,,,,,,,,,,,,,,,,120350000,12,Michoac�án de Ocampo,35,Morelia
+,,,,,,,,,,,,,,,,,,,120360000,12,Michoac�án de Ocampo,36,Nocup�étaro
+,,,,,,,,,,,,,,,,,,,120380000,12,Michoac�án de Ocampo,38,Puru�ándiro
+,,,,,,,,,,,,,,,,,,,120450000,12,Michoac�án de Ocampo,45,Salvador Escalante
+,,,,,,,,,,,,,,,,,,,120460000,12,Michoac�án de Ocampo,46,Susupuato
+,,,,,,,,,,,,,,,,,,,120510000,12,Michoac�án de Ocampo,51,Tac�ámbaro
+,,,,,,,,,,,,,,,,,,,120530000,12,Michoac�án de Ocampo,53,Tlalpujahua
+,,,,,,,,,,,,,,,,,,,120550000,12,Michoac�án de Ocampo,55,Tuxpan
+,,,,,,,,,,,,,,,,,,,120570000,12,Michoac�án de Ocampo,57,Uruapan
+,,,,,,,,,,,,,,,,,,,120610000,12,Michoac�án de Ocampo,61,Villamar
+,,,,,,,,,,,,,,,,,,,120620000,12,Michoac�án de Ocampo,62,Zacapu
+,,,,,,,,,,,,,,,,,,,120660000,12,Michoac�án de Ocampo,66,Zamora
+,,,,,,,,,,,,,,,,,,,120680000,12,Michoac�án de Ocampo,68,Zinap�écuaro
+,,,,,,,,,,,,,,,,,,,120690000,12,Michoac�án de Ocampo,69,Zit�ácuaro
+,,,,,,,,,,,,,,,,,,,120720000,12,Morelos,72,Atlatlahucan
+,,,,,,,,,,,,,,,,,,,120740000,12,Morelos,74,Ayala
+,,,,,,,,,,,,,,,,,,,120770000,12,Morelos,77,Cuautla
+,,,,,,,,,,,,,,,,,,,130020000,13,Morelos,2,Cuernavaca
+,,,,,,,,,,,,,,,,,,,130070000,13,Morelos,7,Emiliano Zapata
+,,,,,,,,,,,,,,,,,,,130090000,13,Morelos,9,Huitzilac
+,,,,,,,,,,,,,,,,,,,130100000,13,Morelos,10,Jiutepec
+,,,,,,,,,,,,,,,,,,,130160000,13,Morelos,16,Jojutla
+,,,,,,,,,,,,,,,,,,,130190000,13,Morelos,19,Miacatl�án
+,,,,,,,,,,,,,,,,,,,130210000,13,Morelos,21,Puente de Ixtla
+,,,,,,,,,,,,,,,,,,,130250000,13,Morelos,25,Temixco
+,,,,,,,,,,,,,,,,,,,130270000,13,Morelos,27,Tepalcingo
+,,,,,,,,,,,,,,,,,,,130280000,13,Morelos,28,Tepoztl�án
+,,,,,,,,,,,,,,,,,,,130290000,13,Morelos,29,Tlaltizap�án
+,,,,,,,,,,,,,,,,,,,130300000,13,Morelos,30,Tlaquiltenango
+,,,,,,,,,,,,,,,,,,,130320000,13,Morelos,32,Totolapan
+,,,,,,,,,,,,,,,,,,,130370000,13,Morelos,37,Xochitepec
+,,,,,,,,,,,,,,,,,,,130400000,13,Morelos,40,Yautepec
+,,,,,,,,,,,,,,,,,,,130410000,13,Morelos,41,Yecapixtla
+,,,,,,,,,,,,,,,,,,,130460000,13,Morelos,46,Zacatepec
+,,,,,,,,,,,,,,,,,,,130480000,13,Nayarit,48,Acaponeta
+,,,,,,,,,,,,,,,,,,,130490000,13,Nayarit,49,Compostela
+,,,,,,,,,,,,,,,,,,,130510000,13,Nayarit,51,Huajicori
+,,,,,,,,,,,,,,,,,,,130520000,13,Nayarit,52,Ixtl�án del R�ío
+,,,,,,,,,,,,,,,,,,,130530000,13,Nayarit,53,Jala
+,,,,,,,,,,,,,,,,,,,130550000,13,Nayarit,55,Del Nayar
+,,,,,,,,,,,,,,,,,,,130560000,13,Nayarit,56,Rosamorada
+,,,,,,,,,,,,,,,,,,,130590000,13,Nayarit,59,Ru�íz
+,,,,,,,,,,,,,,,,,,,130600000,13,Nayarit,60,San Blas
+,,,,,,,,,,,,,,,,,,,130610000,13,Nayarit,61,Santa Mar�ía del Oro
+,,,,,,,,,,,,,,,,,,,130620000,13,Nayarit,62,Santiago Ixcuintla
+,,,,,,,,,,,,,,,,,,,130630000,13,Nayarit,63,Tecuala
+,,,,,,,,,,,,,,,,,,,130640000,13,Nayarit,64,Tepic
+,,,,,,,,,,,,,,,,,,,130670000,13,Nayarit,67,Tuxpan
+,,,,,,,,,,,,,,,,,,,130690000,13,Nayarit,69,Bah�ía de Banderas
+,,,,,,,,,,,,,,,,,,,130700000,13,Nuevo Le�ón,70,Allende
+,,,,,,,,,,,,,,,,,,,130730000,13,Nuevo Le�ón,73,An�áhuac
+,,,,,,,,,,,,,,,,,,,130740000,13,Nuevo Le�ón,74,Apodaca
+,,,,,,,,,,,,,,,,,,,130750000,13,Nuevo Le�ón,75,Cadereyta Jim�énez
+,,,,,,,,,,,,,,,,,,,130760000,13,Nuevo Le�ón,76,Carmen
+,,,,,,,,,,,,,,,,,,,130770000,13,Nuevo Le�ón,77,Dr. Arroyo
+,,,,,,,,,,,,,,,,,,,130810000,13,Nuevo Le�ón,81,Dr. Gonz�ález
+,,,,,,,,,,,,,,,,,,,130820000,13,Nuevo Le�ón,82,Galeana
+,,,,,,,,,,,,,,,,,,,130840000,13,Nuevo Le�ón,84,Garc�ía
+,,,,,,,,,,,,,,,,,,,140020000,14,Nuevo Le�ón,2,Gral. Escobedo
+,,,,,,,,,,,,,,,,,,,140060000,14,Nuevo Le�ón,6,Gral. Ter�án
+,,,,,,,,,,,,,,,,,,,140090000,14,Nuevo Le�ón,9,Guadalupe
+,,,,,,,,,,,,,,,,,,,140130000,14,Nuevo Le�ón,13,Ju�árez
+,,,,,,,,,,,,,,,,,,,140150000,14,Nuevo Le�ón,15,Linares
+,,,,,,,,,,,,,,,,,,,140160000,14,Nuevo Le�ón,16,Montemorelos
+,,,,,,,,,,,,,,,,,,,140180000,14,Nuevo Le�ón,18,Pesquer�ía
+,,,,,,,,,,,,,,,,,,,140210000,14,Nuevo Le�ón,21,Los Ramones
+,,,,,,,,,,,,,,,,,,,140220000,14,Nuevo Le�ón,22,Salinas Victoria
+,,,,,,,,,,,,,,,,,,,140230000,14,Nuevo Le�ón,23,Santa Catarina
+,,,,,,,,,,,,,,,,,,,140350000,14,Nuevo Le�ón,35,Santiago
+,,,,,,,,,,,,,,,,,,,140370000,14,Oaxaca,37,Acatl�án de P�érez Figueroa
+,,,,,,,,,,,,,,,,,,,140390000,14,Oaxaca,39,Concepci�ón P�ápalo
+,,,,,,,,,,,,,,,,,,,140430000,14,Oaxaca,43,Cuil�ápam de Guerrero
+,,,,,,,,,,,,,,,,,,,140450000,14,Oaxaca,45,Huautla de Jim�énez
+,,,,,,,,,,,,,,,,,,,140490000,14,Oaxaca,49,Oaxaca de Ju�árez
+,,,,,,,,,,,,,,,,,,,140500000,14,Oaxaca,50,San Agust�ín Atenango
+,,,,,,,,,,,,,,,,,,,140520000,14,Oaxaca,52,San Agust�ín Loxicha
+,,,,,,,,,,,,,,,,,,,140550000,14,Oaxaca,55,San Francisco del Mar
+,,,,,,,,,,,,,,,,,,,140590000,14,Oaxaca,59,San Francisco Telixtlahuaca
+,,,,,,,,,,,,,,,,,,,140630000,14,Oaxaca,63,San Juan Bautista Tuxtepec
+,,,,,,,,,,,,,,,,,,,140670000,14,Oaxaca,67,San Juan Cotzoc�ón
+,,,,,,,,,,,,,,,,,,,140690000,14,Oaxaca,69,San Mateo Pi�ñas
+,,,,,,,,,,,,,,,,,,,140700000,14,Oaxaca,70,San Pedro Ixtlahuaca
+,,,,,,,,,,,,,,,,,,,140730000,14,Oaxaca,73,Villa de Tututepec de Melchor Ocampo
+,,,,,,,,,,,,,,,,,,,140830000,14,Oaxaca,83,Santa Cruz Xoxocotl�án
+,,,,,,,,,,,,,,,,,,,140890000,14,Oaxaca,89,Santa Luc�ía del Camino
+,,,,,,,,,,,,,,,,,,,140900000,14,Oaxaca,90,Santa Mar�ía Huatulco
+,,,,,,,,,,,,,,,,,,,140920000,14,Oaxaca,92,Santa Mar�ía Tonameca
+,,,,,,,,,,,,,,,,,,,140930000,14,Oaxaca,93,Santiago Atitl�án
+,,,,,,,,,,,,,,,,,,,140970000,14,Oaxaca,97,Santiago Llano Grande
+,,,,,,,,,,,,,,,,,,,140980000,14,Oaxaca,98,Santiago Pinotepa Nacional
+,,,,,,,,,,,,,,,,,,,141000000,14,Oaxaca,100,Santo Domingo Zanatepec
+,,,,,,,,,,,,,,,,,,,141010000,14,Oaxaca,101,Tlacolula de Matamoros
+,,,,,,,,,,,,,,,,,,,141050000,14,Puebla,105,Amozoc
+,,,,,,,,,,,,,,,,,,,141070000,14,Puebla,107,Cuautlancingo
+,,,,,,,,,,,,,,,,,,,141140000,14,Puebla,114,Esperanza
+,,,,,,,,,,,,,,,,,,,141160000,14,Puebla,116,Huauchinango
+,,,,,,,,,,,,,,,,,,,141200000,14,Puebla,120,Huejotzingo
+,,,,,,,,,,,,,,,,,,,141210000,14,Puebla,121,Hueytamalco
+,,,,,,,,,,,,,,,,,,,141240000,14,Puebla,124,Juan C. Bonilla
+,,,,,,,,,,,,,,,,,,,141250000,14,Puebla,125,Nopalucan
+,,,,,,,,,,,,,,,,,,,150020000,15,Puebla,2,Ocoyucan
+,,,,,,,,,,,,,,,,,,,150030000,15,Puebla,3,Puebla
+,,,,,,,,,,,,,,,,,,,150050000,15,Puebla,5,San Andr�és Cholula
+,,,,,,,,,,,,,,,,,,,150070000,15,Puebla,7,San Pedro Cholula
+,,,,,,,,,,,,,,,,,,,150090000,15,Puebla,9,Teotlalco
+,,,,,,,,,,,,,,,,,,,150110000,15,Puebla,11,Tlachichuca
+,,,,,,,,,,,,,,,,,,,150130000,15,Puebla,13,Tlahuapan
+,,,,,,,,,,,,,,,,,,,150170000,15,Puebla,17,Xicotepec
+,,,,,,,,,,,,,,,,,,,150180000,15,Puebla,18,Zihuateutla
+,,,,,,,,,,,,,,,,,,,150200000,15,Quer�étaro,20,Amealco de Bonfil
+,,,,,,,,,,,,,,,,,,,150230000,15,Quer�étaro,23,Cadereyta de Montes
+,,,,,,,,,,,,,,,,,,,150240000,15,Quer�étaro,24,Corregidora
+,,,,,,,,,,,,,,,,,,,150250000,15,Quer�étaro,25,Ezequiel Montes
+,,,,,,,,,,,,,,,,,,,150260000,15,Quer�étaro,26,Huimilpan
+,,,,,,,,,,,,,,,,,,,150280000,15,Quer�étaro,28,Jalpan de Serra
+,,,,,,,,,,,,,,,,,,,150290000,15,Quer�étaro,29,Landa de Matamoros
+,,,,,,,,,,,,,,,,,,,150310000,15,Quer�étaro,31,El Marqu�és
+,,,,,,,,,,,,,,,,,,,150320000,15,Quer�étaro,32,Pedro Escobedo
+,,,,,,,,,,,,,,,,,,,150330000,15,Quer�étaro,33,Quer�étaro
+,,,,,,,,,,,,,,,,,,,150350000,15,Quer�étaro,35,San Joaqu�ín
+,,,,,,,,,,,,,,,,,,,150360000,15,Quer�étaro,36,San Juan del R�ío
+,,,,,,,,,,,,,,,,,,,150370000,15,Quer�étaro,37,Tequisquiapan
+,,,,,,,,,,,,,,,,,,,150390000,15,Quintana Roo,39,Felipe Carrillo Puerto
+,,,,,,,,,,,,,,,,,,,150440000,15,Quintana Roo,44,Oth�ón P. Blanco
+,,,,,,,,,,,,,,,,,,,150450000,15,Quintana Roo,45,Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,150460000,15,Quintana Roo,46,Jos�é Mar�ía Morelos
+,,,,,,,,,,,,,,,,,,,150470000,15,Quintana Roo,47,Tulum
+,,,,,,,,,,,,,,,,,,,150510000,15,Quintana Roo,51,Bacalar
+,,,,,,,,,,,,,,,,,,,150520000,15,San Luis Potos�í,52,Ciudad Fern�ández
+,,,,,,,,,,,,,,,,,,,150540000,15,San Luis Potos�í,54,Ciudad Valles
+,,,,,,,,,,,,,,,,,,,150570000,15,San Luis Potos�í,57,Coxcatl�án
+,,,,,,,,,,,,,,,,,,,150580000,15,San Luis Potos�í,58,Charcas
+,,,,,,,,,,,,,,,,,,,150590000,15,San Luis Potos�í,59,Lagunillas
+,,,,,,,,,,,,,,,,,,,150600000,15,San Luis Potos�í,60,Mexquitic de Carmona
+,,,,,,,,,,,,,,,,,,,150610000,15,San Luis Potos�í,61,Moctezuma
+,,,,,,,,,,,,,,,,,,,150620000,15,San Luis Potos�í,62,San Luis Potos�í
+,,,,,,,,,,,,,,,,,,,150640000,15,San Luis Potos�í,64,San Mart�ín Chalchicuautla
+,,,,,,,,,,,,,,,,,,,150700000,15,San Luis Potos�í,70,Santa Catarina
+,,,,,,,,,,,,,,,,,,,150750000,15,San Luis Potos�í,75,Tamasopo
+,,,,,,,,,,,,,,,,,,,150760000,15,San Luis Potos�í,76,Tamazunchale
+,,,,,,,,,,,,,,,,,,,150790000,15,San Luis Potos�í,79,Tamu�ín
+,,,,,,,,,,,,,,,,,,,150810000,15,San Luis Potos�í,81,Villa de Ramos
+,,,,,,,,,,,,,,,,,,,150850000,15,San Luis Potos�í,85,Villa de Reyes
+,,,,,,,,,,,,,,,,,,,150870000,15,San Luis Potos�í,87,Villa Ju�árez
+,,,,,,,,,,,,,,,,,,,150880000,15,San Luis Potos�í,88,Xilitla
+,,,,,,,,,,,,,,,,,,,150900000,15,San Luis Potos�í,90,Matlapa
+,,,,,,,,,,,,,,,,,,,150910000,15,Sinaloa,91,Ahome
+,,,,,,,,,,,,,,,,,,,150940000,15,Sinaloa,94,Angostura
+,,,,,,,,,,,,,,,,,,,150950000,15,Sinaloa,95,Culiac�án
+,,,,,,,,,,,,,,,,,,,150970000,15,Sinaloa,97,Choix
+,,,,,,,,,,,,,,,,,,,150990000,15,Sinaloa,99,Elota
+,,,,,,,,,,,,,,,,,,,151000000,15,Sinaloa,100,El Fuerte
+,,,,,,,,,,,,,,,,,,,151010000,15,Sinaloa,101,Guasave
+,,,,,,,,,,,,,,,,,,,151030000,15,Sinaloa,103,Mazatl�án
+,,,,,,,,,,,,,,,,,,,151040000,15,Sinaloa,104,Sinaloa
+,,,,,,,,,,,,,,,,,,,151050000,15,Sinaloa,105,Navolato
+,,,,,,,,,,,,,,,,,,,151060000,15,Sonora,106,Alamos
+,,,,,,,,,,,,,,,,,,,151080000,15,Sonora,108,Caborca
+,,,,,,,,,,,,,,,,,,,151090000,15,Sonora,109,Cajeme
+,,,,,,,,,,,,,,,,,,,151100000,15,Sonora,110,Empalme
+,,,,,,,,,,,,,,,,,,,151110000,15,Sonora,111,Etchojoa
+,,,,,,,,,,,,,,,,,,,151120000,15,Sonora,112,Guaymas
+,,,,,,,,,,,,,,,,,,,151130000,15,Sonora,113,Hermosillo
+,,,,,,,,,,,,,,,,,,,151140000,15,Sonora,114,Huatabampo
+,,,,,,,,,,,,,,,,,,,151150000,15,Sonora,115,Imuris
+,,,,,,,,,,,,,,,,,,,151180000,15,Sonora,118,Magdalena
+,,,,,,,,,,,,,,,,,,,151200000,15,Sonora,120,Navojoa
+,,,,,,,,,,,,,,,,,,,151210000,15,Sonora,121,Nogales
+,,,,,,,,,,,,,,,,,,,151220000,15,Sonora,122,San Luis R�ío Colorado
+,,,,,,,,,,,,,,,,,,,151230000,15,Sonora,123,Y�écora
+,,,,,,,,,,,,,,,,,,,151240000,15,Tabasco,124,Balanc�án
+,,,,,,,,,,,,,,,,,,,160090000,16,Tabasco,9,C�árdenas
+,,,,,,,,,,,,,,,,,,,160140000,16,Tabasco,14,Centla
+,,,,,,,,,,,,,,,,,,,160150000,16,Tabasco,15,Centro
+,,,,,,,,,,,,,,,,,,,160170000,16,Tabasco,17,Comalcalco
+,,,,,,,,,,,,,,,,,,,160190000,16,Tabasco,19,Cunduac�án
+,,,,,,,,,,,,,,,,,,,160200000,16,Tabasco,20,Huimanguillo
+,,,,,,,,,,,,,,,,,,,160220000,16,Tabasco,22,Jonuta
+,,,,,,,,,,,,,,,,,,,160270000,16,Tabasco,27,Macuspana
+,,,,,,,,,,,,,,,,,,,160330000,16,Tabasco,33,Nacajuca
+,,,,,,,,,,,,,,,,,,,160340000,16,Tabasco,34,Para�íso
+,,,,,,,,,,,,,,,,,,,160360000,16,Tabasco,36,Tacotalpa
+,,,,,,,,,,,,,,,,,,,160380000,16,Tabasco,38,Tenosique
+,,,,,,,,,,,,,,,,,,,160430000,16,Tamaulipas,43,Aldama
+,,,,,,,,,,,,,,,,,,,160470000,16,Tamaulipas,47,Altamira
+,,,,,,,,,,,,,,,,,,,160500000,16,Tamaulipas,50,Antiguo Morelos
+,,,,,,,,,,,,,,,,,,,160520000,16,Tamaulipas,52,G�ü�émez
+,,,,,,,,,,,,,,,,,,,160530000,16,Tamaulipas,53,Hidalgo
+,,,,,,,,,,,,,,,,,,,160570000,16,Tamaulipas,57,El Mante
+,,,,,,,,,,,,,,,,,,,160620000,16,Tamaulipas,62,Ocampo
+,,,,,,,,,,,,,,,,,,,160660000,16,Tamaulipas,66,Padilla
+,,,,,,,,,,,,,,,,,,,160670000,16,Tamaulipas,67,Soto la Marina
+,,,,,,,,,,,,,,,,,,,160690000,16,Tamaulipas,69,Tula
+,,,,,,,,,,,,,,,,,,,160710000,16,Tamaulipas,71,Victoria
+,,,,,,,,,,,,,,,,,,,160750000,16,Tamaulipas,75,Villagr�án
+,,,,,,,,,,,,,,,,,,,160760000,16,Tlaxcala,76,Apizaco
+,,,,,,,,,,,,,,,,,,,160770000,16,Tlaxcala,77,Calpulalpan
+,,,,,,,,,,,,,,,,,,,160790000,16,Tlaxcala,79,Cuapiaxtla
+,,,,,,,,,,,,,,,,,,,160810000,16,Tlaxcala,81,Chiautempan
+,,,,,,,,,,,,,,,,,,,160820000,16,Tlaxcala,82,Huamantla
+,,,,,,,,,,,,,,,,,,,160860000,16,Tlaxcala,86,Ixtacuixtla de Mariano Matamoros
+,,,,,,,,,,,,,,,,,,,160870000,16,Tlaxcala,87,Tepetitla de Lardiz�ábal
+,,,,,,,,,,,,,,,,,,,160890000,16,Tlaxcala,89,Nat�ívitas
+,,,,,,,,,,,,,,,,,,,160930000,16,Tlaxcala,93,Panotla
+,,,,,,,,,,,,,,,,,,,160980000,16,Tlaxcala,98,San Pablo del Monte
+,,,,,,,,,,,,,,,,,,,161020000,16,Tlaxcala,102,Santa Cruz Tlaxcala
+,,,,,,,,,,,,,,,,,,,161040000,16,Tlaxcala,104,Teolocholco
+,,,,,,,,,,,,,,,,,,,161050000,16,Tlaxcala,105,Terrenate
+,,,,,,,,,,,,,,,,,,,161070000,16,Tlaxcala,107,Tetla de la Solidaridad
+,,,,,,,,,,,,,,,,,,,161080000,16,Tlaxcala,108,Tetlatlahuca
+,,,,,,,,,,,,,,,,,,,161100000,16,Tlaxcala,110,Tlaxcala
+,,,,,,,,,,,,,,,,,,,161110000,16,Tlaxcala,111,Tlaxco
+,,,,,,,,,,,,,,,,,,,161120000,16,Tlaxcala,112,Totolac
+,,,,,,,,,,,,,,,,,,,170020000,17,Tlaxcala,2,Tzompantepec
+,,,,,,,,,,,,,,,,,,,170040000,17,Tlaxcala,4,Xaloztoc
+,,,,,,,,,,,,,,,,,,,170050000,17,Tlaxcala,5,Yauhquemehcan
+,,,,,,,,,,,,,,,,,,,170060000,17,Veracruz de Ignacio de la Llave,6,Acultzingo
+,,,,,,,,,,,,,,,,,,,170070000,17,Veracruz de Ignacio de la Llave,7,Carrillo Puerto
+,,,,,,,,,,,,,,,,,,,170080000,17,Veracruz de Ignacio de la Llave,8,Coatzacoalcos
+,,,,,,,,,,,,,,,,,,,170090000,17,Veracruz de Ignacio de la Llave,9,C�órdoba
+,,,,,,,,,,,,,,,,,,,170110000,17,Veracruz de Ignacio de la Llave,11,Cosautl�án de Carvajal
+,,,,,,,,,,,,,,,,,,,170120000,17,Veracruz de Ignacio de la Llave,12,Las Choapas
+,,,,,,,,,,,,,,,,,,,170140000,17,Veracruz de Ignacio de la Llave,14,Chocam�án
+,,,,,,,,,,,,,,,,,,,170150000,17,Veracruz de Ignacio de la Llave,15,Huayacocotla
+,,,,,,,,,,,,,,,,,,,170170000,17,Veracruz de Ignacio de la Llave,17,Xalapa
+,,,,,,,,,,,,,,,,,,,170180000,17,Veracruz de Ignacio de la Llave,18,Mecatl�án
+,,,,,,,,,,,,,,,,,,,170190000,17,Veracruz de Ignacio de la Llave,19,Nogales
+,,,,,,,,,,,,,,,,,,,170200000,17,Veracruz de Ignacio de la Llave,20,Sayula de Alem�án
+,,,,,,,,,,,,,,,,,,,170240000,17,Veracruz de Ignacio de la Llave,24,Soledad de Doblado
+,,,,,,,,,,,,,,,,,,,170250000,17,Veracruz de Ignacio de la Llave,25,Castillo de Teayo
+,,,,,,,,,,,,,,,,,,,170260000,17,Veracruz de Ignacio de la Llave,26,�Álamo Temapache
+,,,,,,,,,,,,,,,,,,,170270000,17,Veracruz de Ignacio de la Llave,27,Tequila
+,,,,,,,,,,,,,,,,,,,170280000,17,Veracruz de Ignacio de la Llave,28,Tihuatl�án
+,,,,,,,,,,,,,,,,,,,170290000,17,Veracruz de Ignacio de la Llave,29,Tlacolulan
+,,,,,,,,,,,,,,,,,,,170300000,17,Veracruz de Ignacio de la Llave,30,Tonay�án
+,,,,,,,,,,,,,,,,,,,170310000,17,Veracruz de Ignacio de la Llave,31,Veracruz
+,,,,,,,,,,,,,,,,,,,180010000,18,Veracruz de Ignacio de la Llave,1,Zontecomatl�án de L�ópez y Fuentes
+,,,,,,,,,,,,,,,,,,,180040000,18,Veracruz de Ignacio de la Llave,4,San Rafael
+,,,,,,,,,,,,,,,,,,,180050000,18,Yucat�án,5,Abal�á
+,,,,,,,,,,,,,,,,,,,180060000,18,Yucat�án,6,Conkal
+,,,,,,,,,,,,,,,,,,,180070000,18,Yucat�án,7,Chemax
+,,,,,,,,,,,,,,,,,,,180080000,18,Yucat�án,8,Chichimil�á
+,,,,,,,,,,,,,,,,,,,180090000,18,Yucat�án,9,Espita
+,,,,,,,,,,,,,,,,,,,180100000,18,Yucat�án,10,Hom�ún
+,,,,,,,,,,,,,,,,,,,180110000,18,Yucat�án,11,M�érida
+,,,,,,,,,,,,,,,,,,,180120000,18,Yucat�án,12,Motul
+,,,,,,,,,,,,,,,,,,,180140000,18,Yucat�án,14,Progreso
+,,,,,,,,,,,,,,,,,,,180150000,18,Yucat�án,15,Tecoh
+,,,,,,,,,,,,,,,,,,,180160000,18,Yucat�án,16,Tekax
+,,,,,,,,,,,,,,,,,,,180170000,18,Yucat�án,17,Temoz�ón
+,,,,,,,,,,,,,,,,,,,180180000,18,Yucat�án,18,Ticul
+,,,,,,,,,,,,,,,,,,,180200000,18,Yucat�án,20,Tizim�ín
+,,,,,,,,,,,,,,,,,,,190010000,19,Yucat�án,1,Tzucacab
+,,,,,,,,,,,,,,,,,,,190040000,19,Yucat�án,4,Um�án
+,,,,,,,,,,,,,,,,,,,190050000,19,Yucat�án,5,Valladolid
+,,,,,,,,,,,,,,,,,,,190060000,19,Zacatecas,6,Fresnillo
+,,,,,,,,,,,,,,,,,,,190090000,19,Zacatecas,9,General P�ánfilo Natera
+,,,,,,,,,,,,,,,,,,,190100000,19,Zacatecas,10,Guadalupe
+,,,,,,,,,,,,,,,,,,,190140000,19,Zacatecas,14,Jerez
+,,,,,,,,,,,,,,,,,,,190160000,19,Zacatecas,16,Juchipila
+,,,,,,,,,,,,,,,,,,,190170000,19,Zacatecas,17,Miguel Auza
+,,,,,,,,,,,,,,,,,,,190180000,19,Zacatecas,18,P�ánuco
+,,,,,,,,,,,,,,,,,,,190190000,19,Zacatecas,19,Pinos
+,,,,,,,,,,,,,,,,,,,190210000,19,Zacatecas,21,Sain Alto
+,,,,,,,,,,,,,,,,,,,190220000,19,Zacatecas,22,Sombrerete
+,,,,,,,,,,,,,,,,,,,190250000,19,Zacatecas,25,Tabasco
+,,,,,,,,,,,,,,,,,,,190260000,19,Zacatecas,26,Valpara�íso
+,,,,,,,,,,,,,,,,,,,190270000,19,Zacatecas,27,Vetagrande
+,,,,,,,,,,,,,,,,,,,190300000,19,Zacatecas,30,Villa de Cos
+,,,,,,,,,,,,,,,,,,,190310000,19,Zacatecas,31,Villanueva
+,,,,,,,,,,,,,,,,,,,190330000,19,Baja California Sur,33,Loreto
+,,,,,,,,,,,,,,,,,,,190340000,19,Campeche,34,Calkin�í
+,,,,,,,,,,,,,,,,,,,190380000,19,Campeche,38,Tenabo
+,,,,,,,,,,,,,,,,,,,190390000,19,Coahuila de Zaragoza,39,Acu�ña
+,,,,,,,,,,,,,,,,,,,190410000,19,Coahuila de Zaragoza,41,Allende
+,,,,,,,,,,,,,,,,,,,190420000,19,Coahuila de Zaragoza,42,Frontera
+,,,,,,,,,,,,,,,,,,,190440000,19,Coahuila de Zaragoza,44,Monclova
+,,,,,,,,,,,,,,,,,,,190450000,19,Coahuila de Zaragoza,45,Morelos
+,,,,,,,,,,,,,,,,,,,190460000,19,Coahuila de Zaragoza,46,Nadadores
+,,,,,,,,,,,,,,,,,,,190480000,19,Coahuila de Zaragoza,48,Piedras Negras
+,,,,,,,,,,,,,,,,,,,190490000,19,Coahuila de Zaragoza,49,Progreso
+,,,,,,,,,,,,,,,,,,,190500000,19,Coahuila de Zaragoza,50,Sabinas
+,,,,,,,,,,,,,,,,,,,200020000,20,Coahuila de Zaragoza,2,San Buenaventura
+,,,,,,,,,,,,,,,,,,,200050000,20,Coahuila de Zaragoza,5,San Juan de Sabinas
+,,,,,,,,,,,,,,,,,,,200140000,20,Coahuila de Zaragoza,14,Viesca
+,,,,,,,,,,,,,,,,,,,200190000,20,Coahuila de Zaragoza,19,Villa Uni�ón
+,,,,,,,,,,,,,,,,,,,200230000,20,Coahuila de Zaragoza,23,Zaragoza
+,,,,,,,,,,,,,,,,,,,200300000,20,Chiapas,30,Acacoyagua
+,,,,,,,,,,,,,,,,,,,200340000,20,Chiapas,34,Acapetahua
+,,,,,,,,,,,,,,,,,,,200410000,20,Chiapas,41,Amatenango de la Frontera
+,,,,,,,,,,,,,,,,,,,200430000,20,Chiapas,43,Cintalapa
+,,,,,,,,,,,,,,,,,,,200590000,20,Chiapas,59,Coapilla
+,,,,,,,,,,,,,,,,,,,200640000,20,Chiapas,64,Copainal�á
+,,,,,,,,,,,,,,,,,,,200670000,20,Chiapas,67,Chanal
+,,,,,,,,,,,,,,,,,,,200790000,20,Chiapas,79,Chicoas�én
+,,,,,,,,,,,,,,,,,,,200810000,20,Chiapas,81,Huehuet�án
+,,,,,,,,,,,,,,,,,,,200830000,20,Chiapas,83,Jiquipilas
+,,,,,,,,,,,,,,,,,,,200850000,20,Chiapas,85,Jitotol
+,,,,,,,,,,,,,,,,,,,201070000,20,Chiapas,107,Mazapa de Madero
+,,,,,,,,,,,,,,,,,,,201340000,20,Chiapas,134,Palenque
+,,,,,,,,,,,,,,,,,,,201410000,20,Chiapas,141,Pantelh�ó
+,,,,,,,,,,,,,,,,,,,201500000,20,Chiapas,150,Pijijiapan
+,,,,,,,,,,,,,,,,,,,201840000,20,Chiapas,184,Villa Comaltitl�án
+,,,,,,,,,,,,,,,,,,,201880000,20,Chiapas,188,Las Rosas
+,,,,,,,,,,,,,,,,,,,201900000,20,Chiapas,190,San Fernando
+,,,,,,,,,,,,,,,,,,,201980000,20,Chiapas,198,Tonal�á
+,,,,,,,,,,,,,,,,,,,202070000,20,Chiapas,207,Tuxtla Guti�érrez
+,,,,,,,,,,,,,,,,,,,202530000,20,Chiapas,253,Tuxtla Chico
+,,,,,,,,,,,,,,,,,,,202850000,20,Chiapas,285,Tuzant�án
+,,,,,,,,,,,,,,,,,,,202950000,20,Chiapas,295,Venustiano Carranza
+,,,,,,,,,,,,,,,,,,,202980000,20,Chiapas,298,Zinacant�án
+,,,,,,,,,,,,,,,,,,,203000000,20,Chiapas,300,San Juan Cancuc
+,,,,,,,,,,,,,,,,,,,203090000,20,Chihuahua,309,Camargo
+,,,,,,,,,,,,,,,,,,,203100000,20,Chihuahua,310,Chihuahua
+,,,,,,,,,,,,,,,,,,,203130000,20,Chihuahua,313,Galeana
+,,,,,,,,,,,,,,,,,,,203150000,20,Chihuahua,315,Guachochi
+,,,,,,,,,,,,,,,,,,,203240000,20,Chihuahua,324,Guadalupe
+,,,,,,,,,,,,,,,,,,,203300000,20,Chihuahua,330,Guadalupe y Calvo
+,,,,,,,,,,,,,,,,,,,203340000,20,Chihuahua,334,Hidalgo del Parral
+,,,,,,,,,,,,,,,,,,,203440000,20,Chihuahua,344,Ignacio Zaragoza
+,,,,,,,,,,,,,,,,,,,203460000,20,Chihuahua,346,Janos
+,,,,,,,,,,,,,,,,,,,203500000,20,Chihuahua,350,Jim�énez
+,,,,,,,,,,,,,,,,,,,203590000,20,Chihuahua,359,Ju�árez
+,,,,,,,,,,,,,,,,,,,203750000,20,Chihuahua,375,Julimes
+,,,,,,,,,,,,,,,,,,,203850000,20,Chihuahua,385,Matach�í
+,,,,,,,,,,,,,,,,,,,203900000,20,Chihuahua,390,Meoqui
+,,,,,,,,,,,,,,,,,,,203990000,20,Chihuahua,399,Nuevo Casas Grandes
+,,,,,,,,,,,,,,,,,,,204130000,20,Chihuahua,413,Praxedis G. Guerrero
+,,,,,,,,,,,,,,,,,,,204180000,20,Chihuahua,418,Rosales
+,,,,,,,,,,,,,,,,,,,204310000,20,Chihuahua,431,El Tule
+,,,,,,,,,,,,,,,,,,,204390000,20,Ciudad de M�éxico,439,Azcapotzalco
+,,,,,,,,,,,,,,,,,,,204540000,20,Ciudad de M�éxico,454,Coyoac�án
+,,,,,,,,,,,,,,,,,,,204660000,20,Ciudad de M�éxico,466,Gustavo A. Madero
+,,,,,,,,,,,,,,,,,,,204720000,20,Ciudad de M�éxico,472,Iztacalco
+,,,,,,,,,,,,,,,,,,,204740000,20,Ciudad de M�éxico,474,Iztapalapa
+,,,,,,,,,,,,,,,,,,,204820000,20,Ciudad de M�éxico,482,La Magdalena Contreras
+,,,,,,,,,,,,,,,,,,,204850000,20,Ciudad de M�éxico,485,�Álvaro Obreg�ón
+,,,,,,,,,,,,,,,,,,,205150000,20,Ciudad de M�éxico,515,Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,205170000,20,Ciudad de M�éxico,517,Cuauht�émoc
+,,,,,,,,,,,,,,,,,,,205190000,20,Ciudad de M�éxico,519,Miguel Hidalgo
+,,,,,,,,,,,,,,,,,,,205250000,20,Ciudad de M�éxico,525,Venustiano Carranza
+,,,,,,,,,,,,,,,,,,,205260000,20,Durango,526,El Oro
+,,,,,,,,,,,,,,,,,,,205270000,20,Durango,527,San Juan del R�ío
+,,,,,,,,,,,,,,,,,,,205490000,20,Guanajuato,549,Manuel Doblado
+,,,,,,,,,,,,,,,,,,,205510000,20,Guanajuato,551,Jaral del Progreso
+,,,,,,,,,,,,,,,,,,,205530000,20,Guanajuato,553,Pur�ísima del Rinc�ón
+,,,,,,,,,,,,,,,,,,,205650000,20,Guanajuato,565,Valle de Santiago
+,,,,,,,,,,,,,,,,,,,210040000,21,Guanajuato,4,Victoria
+,,,,,,,,,,,,,,,,,,,210130000,21,Guanajuato,13,Villagr�án
+,,,,,,,,,,,,,,,,,,,210140000,21,Guerrero,14,Ahuacuotzingo
+,,,,,,,,,,,,,,,,,,,210150000,21,Guerrero,15,Atoyac de �Álvarez
+,,,,,,,,,,,,,,,,,,,210160000,21,Guerrero,16,Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,210190000,21,Guerrero,19,Buenavista de Cu�éllar
+,,,,,,,,,,,,,,,,,,,210340000,21,Guerrero,34,Cocula
+,,,,,,,,,,,,,,,,,,,210410000,21,Guerrero,41,Copanatoyac
+,,,,,,,,,,,,,,,,,,,210430000,21,Guerrero,43,Cuajinicuilapa
+,,,,,,,,,,,,,,,,,,,210450000,21,Guerrero,45,Chilapa de �Álvarez
+,,,,,,,,,,,,,,,,,,,210480000,21,Guerrero,48,Iguala de la Independencia
+,,,,,,,,,,,,,,,,,,,210510000,21,Guerrero,51,Igualapa
+,,,,,,,,,,,,,,,,,,,210530000,21,Guerrero,53,Tixtla de Guerrero
+,,,,,,,,,,,,,,,,,,,210630000,21,Guerrero,63,Tlacoachistlahuaca
+,,,,,,,,,,,,,,,,,,,210660000,21,Guerrero,66,Tlapa de Comonfort
+,,,,,,,,,,,,,,,,,,,210710000,21,Guerrero,71,Zitlala
+,,,,,,,,,,,,,,,,,,,210740000,21,Guerrero,74,Marquelia
+,,,,,,,,,,,,,,,,,,,210750000,21,Hidalgo,75,Acaxochitl�án
+,,,,,,,,,,,,,,,,,,,210760000,21,Hidalgo,76,El Arenal
+,,,,,,,,,,,,,,,,,,,210790000,21,Hidalgo,79,Atitalaquia
+,,,,,,,,,,,,,,,,,,,210900000,21,Hidalgo,90,Cuautepec de Hinojosa
+,,,,,,,,,,,,,,,,,,,210990000,21,Hidalgo,99,Chilcuautla
+,,,,,,,,,,,,,,,,,,,211040000,21,Hidalgo,104,Emiliano Zapata
+,,,,,,,,,,,,,,,,,,,211060000,21,Hidalgo,106,Jaltoc�án
+,,,,,,,,,,,,,,,,,,,211100000,21,Hidalgo,110,La Misi�ón
+,,,,,,,,,,,,,,,,,,,211110000,21,Hidalgo,111,Mixquiahuala de Ju�árez
+,,,,,,,,,,,,,,,,,,,211140000,21,Hidalgo,114,San Agust�ín Tlaxiaca
+,,,,,,,,,,,,,,,,,,,211150000,21,Hidalgo,115,Santiago de Anaya
+,,,,,,,,,,,,,,,,,,,211190000,21,Hidalgo,119,Tecozautla
+,,,,,,,,,,,,,,,,,,,211290000,21,Hidalgo,129,Tenango de Doria
+,,,,,,,,,,,,,,,,,,,211320000,21,Hidalgo,132,Tepeapulco
+,,,,,,,,,,,,,,,,,,,211360000,21,Hidalgo,136,Tepetitl�án
+,,,,,,,,,,,,,,,,,,,211390000,21,Hidalgo,139,Tlahuelilpan
+,,,,,,,,,,,,,,,,,,,211400000,21,Hidalgo,140,Tlaxcoapan
+,,,,,,,,,,,,,,,,,,,211420000,21,Hidalgo,142,Tula de Allende
+,,,,,,,,,,,,,,,,,,,211430000,21,Hidalgo,143,Zapotl�án de Ju�árez
+,,,,,,,,,,,,,,,,,,,211530000,21,Jalisco,153,Acatl�án de Ju�árez
+,,,,,,,,,,,,,,,,,,,211540000,21,Jalisco,154,Ameca
+,,,,,,,,,,,,,,,,,,,211560000,21,Jalisco,156,El Arenal
+,,,,,,,,,,,,,,,,,,,211600000,21,Jalisco,160,La Barca
+,,,,,,,,,,,,,,,,,,,211710000,21,Jalisco,171,Casimiro Castillo
+,,,,,,,,,,,,,,,,,,,211740000,21,Jalisco,174,Cihuatl�án
+,,,,,,,,,,,,,,,,,,,211770000,21,Jalisco,177,Zapotl�án el Grande
+,,,,,,,,,,,,,,,,,,,211790000,21,Jalisco,179,El Grullo
+,,,,,,,,,,,,,,,,,,,211800000,21,Jalisco,180,Guadalajara
+,,,,,,,,,,,,,,,,,,,211820000,21,Jalisco,182,La Huerta
+,,,,,,,,,,,,,,,,,,,211860000,21,Jalisco,186,Ixtlahuac�án del R�ío
+,,,,,,,,,,,,,,,,,,,211970000,21,Jalisco,197,Jocotepec
+,,,,,,,,,,,,,,,,,,,212050000,21,Jalisco,205,Juchitl�án
+,,,,,,,,,,,,,,,,,,,212120000,21,Jalisco,212,Puerto Vallarta
+,,,,,,,,,,,,,,,,,,,212130000,21,Jalisco,213,Quitupan
+,,,,,,,,,,,,,,,,,,,220010000,22,Jalisco,1,Tala
+,,,,,,,,,,,,,,,,,,,220030000,22,Jalisco,3,Techaluta de Montenegro
+,,,,,,,,,,,,,,,,,,,220040000,22,Jalisco,4,Tenamaxtl�án
+,,,,,,,,,,,,,,,,,,,220060000,22,Jalisco,6,Tepatitl�án de Morelos
+,,,,,,,,,,,,,,,,,,,220070000,22,Jalisco,7,Tomatl�án
+,,,,,,,,,,,,,,,,,,,220080000,22,Jalisco,8,Tototl�án
+,,,,,,,,,,,,,,,,,,,220090000,22,Jalisco,9,Villa Hidalgo
+,,,,,,,,,,,,,,,,,,,220100000,22,Jalisco,10,Zapotiltic
+,,,,,,,,,,,,,,,,,,,220110000,22,M�éxico,11,Acolman
+,,,,,,,,,,,,,,,,,,,220120000,22,M�éxico,12,Aculco
+,,,,,,,,,,,,,,,,,,,220140000,22,M�éxico,14,Amanalco
+,,,,,,,,,,,,,,,,,,,220150000,22,M�éxico,15,Amecameca
+,,,,,,,,,,,,,,,,,,,220160000,22,M�éxico,16,Atizap�án de Zaragoza
+,,,,,,,,,,,,,,,,,,,220170000,22,M�éxico,17,Calimaya
+,,,,,,,,,,,,,,,,,,,220180000,22,M�éxico,18,Coacalco de Berrioz�ábal
+,,,,,,,,,,,,,,,,,,,230010000,23,M�éxico,1,Coyotepec
+,,,,,,,,,,,,,,,,,,,230020000,23,M�éxico,2,Chapa de Mota
+,,,,,,,,,,,,,,,,,,,230030000,23,M�éxico,3,Chicoloapan
+,,,,,,,,,,,,,,,,,,,230040000,23,M�éxico,4,Chimalhuac�án
+,,,,,,,,,,,,,,,,,,,230050000,23,M�éxico,5,Donato Guerra
+,,,,,,,,,,,,,,,,,,,230060000,23,M�éxico,6,Ecatepec de Morelos
+,,,,,,,,,,,,,,,,,,,230070000,23,M�éxico,7,Huehuetoca
+,,,,,,,,,,,,,,,,,,,230080000,23,M�éxico,8,Huixquilucan
+,,,,,,,,,,,,,,,,,,,230090000,23,M�éxico,9,Jaltenco
+,,,,,,,,,,,,,,,,,,,230100000,23,M�éxico,10,Jilotepec
+,,,,,,,,,,,,,,,,,,,240010000,24,M�éxico,1,Jilotzingo
+,,,,,,,,,,,,,,,,,,,240030000,24,M�éxico,3,Malinalco
+,,,,,,,,,,,,,,,,,,,240100000,24,M�éxico,10,Nezahualc�óyotl
+,,,,,,,,,,,,,,,,,,,240110000,24,M�éxico,11,Nicol�ás Romero
+,,,,,,,,,,,,,,,,,,,240130000,24,M�éxico,13,Nopaltepec
+,,,,,,,,,,,,,,,,,,,240140000,24,M�éxico,14,Ocoyoacac
+,,,,,,,,,,,,,,,,,,,240150000,24,M�éxico,15,San Mart�ín de las Pir�ámides
+,,,,,,,,,,,,,,,,,,,240160000,24,M�éxico,16,Soyaniquilpan de Ju�árez
+,,,,,,,,,,,,,,,,,,,240190000,24,M�éxico,19,Tenancingo
+,,,,,,,,,,,,,,,,,,,240200000,24,M�éxico,20,Teoloyucan
+,,,,,,,,,,,,,,,,,,,240210000,24,M�éxico,21,Tepetlixpa
+,,,,,,,,,,,,,,,,,,,240220000,24,M�éxico,22,Tepotzotl�án
+,,,,,,,,,,,,,,,,,,,240240000,24,M�éxico,24,Texcaltitl�án
+,,,,,,,,,,,,,,,,,,,240250000,24,M�éxico,25,Tezoyuca
+,,,,,,,,,,,,,,,,,,,240270000,24,M�éxico,27,Tianguistenco
+,,,,,,,,,,,,,,,,,,,240280000,24,M�éxico,28,Tlalmanalco
+,,,,,,,,,,,,,,,,,,,240290000,24,M�éxico,29,Tlalnepantla de Baz
+,,,,,,,,,,,,,,,,,,,240310000,24,M�éxico,31,Valle de Bravo
+,,,,,,,,,,,,,,,,,,,240350000,24,M�éxico,35,Villa del Carb�ón
+,,,,,,,,,,,,,,,,,,,240360000,24,M�éxico,36,Xonacatl�án
+,,,,,,,,,,,,,,,,,,,240370000,24,M�éxico,37,Valle de Chalco Solidaridad
+,,,,,,,,,,,,,,,,,,,240400000,24,M�éxico,40,Luvianos
+,,,,,,,,,,,,,,,,,,,240420000,24,Michoac�án de Ocampo,42,Ario
+,,,,,,,,,,,,,,,,,,,240460000,24,Michoac�án de Ocampo,46,Coalcom�án de V�ázquez Pallares
+,,,,,,,,,,,,,,,,,,,240490000,24,Michoac�án de Ocampo,49,Contepec
+,,,,,,,,,,,,,,,,,,,240500000,24,Michoac�án de Ocampo,50,Cotija
+,,,,,,,,,,,,,,,,,,,240520000,24,Michoac�án de Ocampo,52,Cuitzeo
+,,,,,,,,,,,,,,,,,,,240540000,24,Michoac�án de Ocampo,54,Charo
+,,,,,,,,,,,,,,,,,,,240570000,24,Michoac�án de Ocampo,57,Chuc�ándiro
+,,,,,,,,,,,,,,,,,,,240580000,24,Michoac�án de Ocampo,58,Gabriel Zamora
+,,,,,,,,,,,,,,,,,,,250010000,25,Michoac�án de Ocampo,1,Huandacareo
+,,,,,,,,,,,,,,,,,,,250020000,25,Michoac�án de Ocampo,2,Huetamo
+,,,,,,,,,,,,,,,,,,,250030000,25,Michoac�án de Ocampo,3,Jacona
+,,,,,,,,,,,,,,,,,,,250040000,25,Michoac�án de Ocampo,4,Maravat�ío
+,,,,,,,,,,,,,,,,,,,250050000,25,Michoac�án de Ocampo,5,Pajacuar�án
+,,,,,,,,,,,,,,,,,,,250060000,25,Michoac�án de Ocampo,6,P�átzcuaro
+,,,,,,,,,,,,,,,,,,,250070000,25,Michoac�án de Ocampo,7,Penjamillo
+,,,,,,,,,,,,,,,,,,,250080000,25,Michoac�án de Ocampo,8,La Piedad
+,,,,,,,,,,,,,,,,,,,250090000,25,Michoac�án de Ocampo,9,Los Reyes
+,,,,,,,,,,,,,,,,,,,250100000,25,Michoac�án de Ocampo,10,Sahuayo
+,,,,,,,,,,,,,,,,,,,250110000,25,Michoac�án de Ocampo,11,San Lucas
+,,,,,,,,,,,,,,,,,,,250120000,25,Michoac�án de Ocampo,12,Tanhuato
+,,,,,,,,,,,,,,,,,,,250130000,25,Michoac�án de Ocampo,13,Taretan
+,,,,,,,,,,,,,,,,,,,250140000,25,Michoac�án de Ocampo,14,Tepalcatepec
+,,,,,,,,,,,,,,,,,,,250150000,25,Michoac�án de Ocampo,15,Vista Hermosa
+,,,,,,,,,,,,,,,,,,,250160000,25,Michoac�án de Ocampo,16,Ziracuaretiro
+,,,,,,,,,,,,,,,,,,,250170000,25,Morelos,17,Coatl�án del R�ío
+,,,,,,,,,,,,,,,,,,,250180000,25,Morelos,18,Mazatepec
+,,,,,,,,,,,,,,,,,,,260020000,26,Morelos,2,Tlayacapan
+,,,,,,,,,,,,,,,,,,,260030000,26,Nayarit,3,Xalisco
+,,,,,,,,,,,,,,,,,,,260040000,26,Nuevo Le�ón,4,Abasolo
+,,,,,,,,,,,,,,,,,,,260070000,26,Nuevo Le�ón,7,San Pedro Garza Garc�ía
+,,,,,,,,,,,,,,,,,,,260110000,26,Nuevo Le�ón,11,Gral. Zuazua
+,,,,,,,,,,,,,,,,,,,260170000,26,Nuevo Le�ón,17,Los Herreras
+,,,,,,,,,,,,,,,,,,,260180000,26,Nuevo Le�ón,18,Iturbide
+,,,,,,,,,,,,,,,,,,,260250000,26,Nuevo Le�ón,25,Mar�ín
+,,,,,,,,,,,,,,,,,,,260260000,26,Nuevo Le�ón,26,Monterrey
+,,,,,,,,,,,,,,,,,,,260290000,26,Nuevo Le�ón,29,Sabinas Hidalgo
+,,,,,,,,,,,,,,,,,,,260300000,26,Nuevo Le�ón,30,San Nicol�ás de los Garza
+,,,,,,,,,,,,,,,,,,,260330000,26,Nuevo Le�ón,33,Vallecillo
+,,,,,,,,,,,,,,,,,,,260350000,26,Oaxaca,35,Asunci�ón Ixtaltepec
+,,,,,,,,,,,,,,,,,,,260360000,26,Oaxaca,36,Ciudad Ixtepec
+,,,,,,,,,,,,,,,,,,,260420000,26,Oaxaca,42,El Espinal
+,,,,,,,,,,,,,,,,,,,260430000,26,Oaxaca,43,Guadalupe de Ram�írez
+,,,,,,,,,,,,,,,,,,,260480000,26,Oaxaca,48,Heroica Ciudad de Juchit�án de Zaragoza
+,,,,,,,,,,,,,,,,,,,260490000,26,Oaxaca,49,Miahuatl�án de Porfirio D�íaz
+,,,,,,,,,,,,,,,,,,,260520000,26,Oaxaca,52,Nejapa de Madero
+,,,,,,,,,,,,,,,,,,,260550000,26,Oaxaca,55,Salina Cruz
+,,,,,,,,,,,,,,,,,,,260690000,26,Oaxaca,69,San Agust�ín de las Juntas
+,,,,,,,,,,,,,,,,,,,260710000,26,Oaxaca,71,San Antonio de la Cal
+,,,,,,,,,,,,,,,,,,,270010000,27,Oaxaca,1,San Felipe Jalapa de D�íaz
+,,,,,,,,,,,,,,,,,,,270020000,27,Oaxaca,2,San Juan Colorado
+,,,,,,,,,,,,,,,,,,,270030000,27,Oaxaca,3,San Juan Guichicovi
+,,,,,,,,,,,,,,,,,,,270040000,27,Oaxaca,4,San Juan Mazatl�án
+,,,,,,,,,,,,,,,,,,,270050000,27,Oaxaca,5,San Miguel Tlacamama
+,,,,,,,,,,,,,,,,,,,270060000,27,Oaxaca,6,San Pablo Huixtepec
+,,,,,,,,,,,,,,,,,,,270070000,27,Oaxaca,7,San Pablo Villa de Mitla
+,,,,,,,,,,,,,,,,,,,270080000,27,Oaxaca,8,San Pedro Amuzgos
+,,,,,,,,,,,,,,,,,,,270090000,27,Oaxaca,9,San Pedro Ixcatl�án
+,,,,,,,,,,,,,,,,,,,270100000,27,Oaxaca,10,San Pedro Jocotipac
+,,,,,,,,,,,,,,,,,,,270110000,27,Oaxaca,11,San Pedro M�ártir
+,,,,,,,,,,,,,,,,,,,270120000,27,Oaxaca,12,San Pedro Pochutla
+,,,,,,,,,,,,,,,,,,,270130000,27,Oaxaca,13,San Pedro Teutila
+,,,,,,,,,,,,,,,,,,,270140000,27,Oaxaca,14,San Sebasti�án Coatl�án
+,,,,,,,,,,,,,,,,,,,270150000,27,Oaxaca,15,San Sebasti�án Nicananduta
+,,,,,,,,,,,,,,,,,,,270160000,27,Oaxaca,16,San Sebasti�án Tutla
+,,,,,,,,,,,,,,,,,,,270170000,27,Oaxaca,17,Santa Ana Yareni
+,,,,,,,,,,,,,,,,,,,280020000,28,Oaxaca,2,Santa Cruz Amilpas
+,,,,,,,,,,,,,,,,,,,280030000,28,Oaxaca,3,Santa Mar�ía Atzompa
+,,,,,,,,,,,,,,,,,,,280040000,28,Oaxaca,4,Santa Mar�ía Jalapa del Marqu�és
+,,,,,,,,,,,,,,,,,,,280090000,28,Oaxaca,9,Santa Mar�ía Tecomavaca
+,,,,,,,,,,,,,,,,,,,280130000,28,Oaxaca,13,Santiago Ixtayutla
+,,,,,,,,,,,,,,,,,,,280150000,28,Oaxaca,15,Santiago Laollaga
+,,,,,,,,,,,,,,,,,,,280160000,28,Oaxaca,16,Santiago Tapextla
+,,,,,,,,,,,,,,,,,,,280170000,28,Oaxaca,17,Santo Domingo Tehuantepec
+,,,,,,,,,,,,,,,,,,,280190000,28,Oaxaca,19,Santo Domingo Tepuxtepec
+,,,,,,,,,,,,,,,,,,,280210000,28,Oaxaca,21,Santo Domingo Tomaltepec
+,,,,,,,,,,,,,,,,,,,280220000,28,Oaxaca,22,Santos Reyes Nopala
+,,,,,,,,,,,,,,,,,,,280270000,28,Oaxaca,27,Santos Reyes P�ápalo
+,,,,,,,,,,,,,,,,,,,280290000,28,Oaxaca,29,Tezoatl�án de Segura y Luna
+,,,,,,,,,,,,,,,,,,,280300000,28,Oaxaca,30,Tlalixtac de Cabrera
+,,,,,,,,,,,,,,,,,,,280320000,28,Oaxaca,32,Villa de Zaachila
+,,,,,,,,,,,,,,,,,,,280330000,28,Puebla,33,Acatzingo
+,,,,,,,,,,,,,,,,,,,280370000,28,Puebla,37,Altepexi
+,,,,,,,,,,,,,,,,,,,280380000,28,Puebla,38,Amixtl�án
+,,,,,,,,,,,,,,,,,,,280390000,28,Puebla,39,Aquixtla
+,,,,,,,,,,,,,,,,,,,280400000,28,Puebla,40,Atlixco
+,,,,,,,,,,,,,,,,,,,280410000,28,Puebla,41,Coronango
+,,,,,,,,,,,,,,,,,,,280420000,28,Puebla,42,Cuetzalan del Progreso
+,,,,,,,,,,,,,,,,,,,290010000,29,Puebla,1,Chalchicomula de Sesma
+,,,,,,,,,,,,,,,,,,,290020000,29,Puebla,2,Chiautzingo
+,,,,,,,,,,,,,,,,,,,290050000,29,Puebla,5,Chietla
+,,,,,,,,,,,,,,,,,,,290060000,29,Puebla,6,Chignahuapan
+,,,,,,,,,,,,,,,,,,,290080000,29,Puebla,8,Guadalupe
+,,,,,,,,,,,,,,,,,,,290090000,29,Puebla,9,Hueyapan
+,,,,,,,,,,,,,,,,,,,290100000,29,Puebla,10,Huitziltepec
+,,,,,,,,,,,,,,,,,,,290130000,29,Puebla,13,Ca�ñada Morelos
+,,,,,,,,,,,,,,,,,,,290140000,29,Puebla,14,Palmar de Bravo
+,,,,,,,,,,,,,,,,,,,290150000,29,Puebla,15,Pantepec
+,,,,,,,,,,,,,,,,,,,290170000,29,Puebla,17,Quecholac
+,,,,,,,,,,,,,,,,,,,290180000,29,Puebla,18,San Jos�é Miahuatl�án
+,,,,,,,,,,,,,,,,,,,290190000,29,Puebla,19,San Mart�ín Texmelucan
+,,,,,,,,,,,,,,,,,,,290210000,29,Puebla,21,San Miguel Xoxtla
+,,,,,,,,,,,,,,,,,,,290230000,29,Puebla,23,San Pablo Anicano
+,,,,,,,,,,,,,,,,,,,290240000,29,Puebla,24,San Salvador el Seco
+,,,,,,,,,,,,,,,,,,,290250000,29,Puebla,25,San Salvador el Verde
+,,,,,,,,,,,,,,,,,,,290260000,29,Puebla,26,Tecali de Herrera
+,,,,,,,,,,,,,,,,,,,290270000,29,Puebla,27,Tecamachalco
+,,,,,,,,,,,,,,,,,,,290280000,29,Puebla,28,Tehuac�án
+,,,,,,,,,,,,,,,,,,,290290000,29,Puebla,29,Tepeyahualco de Cuauht�émoc
+,,,,,,,,,,,,,,,,,,,290300000,29,Puebla,30,Teziutl�án
+,,,,,,,,,,,,,,,,,,,290310000,29,Puebla,31,Tlacotepec de Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,290320000,29,Puebla,32,Tlanepantla
+,,,,,,,,,,,,,,,,,,,290330000,29,Puebla,33,Tlatlauquitepec
+,,,,,,,,,,,,,,,,,,,290340000,29,Puebla,34,Yehualtepec
+,,,,,,,,,,,,,,,,,,,290350000,29,Puebla,35,Zautla
+,,,,,,,,,,,,,,,,,,,290360000,29,Quer�étaro,36,Arroyo Seco
+,,,,,,,,,,,,,,,,,,,290370000,29,Quer�étaro,37,Tolim�án
+,,,,,,,,,,,,,,,,,,,290380000,29,Quintana Roo,38,Cozumel
+,,,,,,,,,,,,,,,,,,,290390000,29,Quintana Roo,39,Isla Mujeres
+,,,,,,,,,,,,,,,,,,,290400000,29,Quintana Roo,40,L�ázaro C�árdenas
+,,,,,,,,,,,,,,,,,,,290410000,29,Quintana Roo,41,Solidaridad
+,,,,,,,,,,,,,,,,,,,290420000,29,San Luis Potos�í,42,Ahualulco
+,,,,,,,,,,,,,,,,,,,290430000,29,San Luis Potos�í,43,Aquism�ón
+,,,,,,,,,,,,,,,,,,,290440000,29,San Luis Potos�í,44,Ciudad del Ma�íz
+,,,,,,,,,,,,,,,,,,,290450000,29,San Luis Potos�í,45,Ebano
+,,,,,,,,,,,,,,,,,,,290480000,29,San Luis Potos�í,48,Matehuala
+,,,,,,,,,,,,,,,,,,,290500000,29,San Luis Potos�í,50,Rioverde
+,,,,,,,,,,,,,,,,,,,290510000,29,San Luis Potos�í,51,Salinas
+,,,,,,,,,,,,,,,,,,,290530000,29,San Luis Potos�í,53,San Ciro de Acosta
+,,,,,,,,,,,,,,,,,,,290550000,29,San Luis Potos�í,55,Soledad de Graciano S�ánchez
+,,,,,,,,,,,,,,,,,,,290560000,29,San Luis Potos�í,56,Tanqui�án de Escobedo
+,,,,,,,,,,,,,,,,,,,290570000,29,San Luis Potos�í,57,Villa de Arriaga
+,,,,,,,,,,,,,,,,,,,290580000,29,San Luis Potos�í,58,El Naranjo
+,,,,,,,,,,,,,,,,,,,290600000,29,Sinaloa,60,Badiraguato
+,,,,,,,,,,,,,,,,,,,300030000,30,Sinaloa,3,Concordia
+,,,,,,,,,,,,,,,,,,,300060000,30,Sinaloa,6,Cosal�á
+,,,,,,,,,,,,,,,,,,,300140000,30,Sinaloa,14,Escuinapa
+,,,,,,,,,,,,,,,,,,,300160000,30,Sinaloa,16,Mocorito
+,,,,,,,,,,,,,,,,,,,300220000,30,Sinaloa,22,Rosario
+,,,,,,,,,,,,,,,,,,,300240000,30,Sinaloa,24,Salvador Alvarado
+,,,,,,,,,,,,,,,,,,,300260000,30,Sinaloa,26,San Ignacio
+,,,,,,,,,,,,,,,,,,,300280000,30,Sonora,28,Agua Prieta
+,,,,,,,,,,,,,,,,,,,300300000,30,Sonora,30,Altar
+,,,,,,,,,,,,,,,,,,,300310000,30,Sonora,31,Atil
+,,,,,,,,,,,,,,,,,,,300350000,30,Sonora,35,Bacoachi
+,,,,,,,,,,,,,,,,,,,300380000,30,Sonora,38,Puerto Pe�ñasco
+,,,,,,,,,,,,,,,,,,,300390000,30,Sonora,39,Quiriego
+,,,,,,,,,,,,,,,,,,,300400000,30,Sonora,40,Sahuaripa
+,,,,,,,,,,,,,,,,,,,300430000,30,Sonora,43,Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,300440000,30,Tabasco,44,Emiliano Zapata
+,,,,,,,,,,,,,,,,,,,300460000,30,Tabasco,46,Jalapa
+,,,,,,,,,,,,,,,,,,,300480000,30,Tabasco,48,Jalpa de M�éndez
+,,,,,,,,,,,,,,,,,,,300510000,30,Tabasco,51,Teapa
+,,,,,,,,,,,,,,,,,,,300530000,30,Tamaulipas,53,Ciudad Madero
+,,,,,,,,,,,,,,,,,,,300600000,30,Tamaulipas,60,Gustavo D�íaz Ordaz
+,,,,,,,,,,,,,,,,,,,300610000,30,Tamaulipas,61,Jaumave
+,,,,,,,,,,,,,,,,,,,300620000,30,Tamaulipas,62,Llera
+,,,,,,,,,,,,,,,,,,,300630000,30,Tamaulipas,63,Matamoros
+,,,,,,,,,,,,,,,,,,,300690000,30,Tamaulipas,69,Nuevo Laredo
+,,,,,,,,,,,,,,,,,,,300720000,30,Tamaulipas,72,Reynosa
+,,,,,,,,,,,,,,,,,,,300730000,30,Tamaulipas,73,R�ío Bravo
+,,,,,,,,,,,,,,,,,,,300850000,30,Tamaulipas,85,Tampico
+,,,,,,,,,,,,,,,,,,,300870000,30,Tamaulipas,87,Valle Hermoso
+,,,,,,,,,,,,,,,,,,,301020000,30,Tlaxcala,102,Amaxac de Guerrero
+,,,,,,,,,,,,,,,,,,,301030000,30,Tlaxcala,103,Apetatitl�án de Antonio Carvajal
+,,,,,,,,,,,,,,,,,,,301050000,30,Tlaxcala,105,Cuaxomulco
+,,,,,,,,,,,,,,,,,,,301080000,30,Tlaxcala,108,Hueyotlipan
+,,,,,,,,,,,,,,,,,,,301150000,30,Tlaxcala,115,Mazatecochco de Jos�é Mar�ía Morelos
+,,,,,,,,,,,,,,,,,,,301180000,30,Tlaxcala,118,Contla de Juan Cuamatzi
+,,,,,,,,,,,,,,,,,,,301230000,30,Tlaxcala,123,Nanacamilpa de Mariano Arista
+,,,,,,,,,,,,,,,,,,,301240000,30,Tlaxcala,124,Tenancingo
+,,,,,,,,,,,,,,,,,,,301310000,30,Tlaxcala,131,Tepeyanco
+,,,,,,,,,,,,,,,,,,,301320000,30,Tlaxcala,132,Tocatl�án
+,,,,,,,,,,,,,,,,,,,301330000,30,Tlaxcala,133,Ziltlalt�épec de Trinidad S�ánchez Santos
+,,,,,,,,,,,,,,,,,,,301350000,30,Tlaxcala,135,Xaltocan
+,,,,,,,,,,,,,,,,,,,301380000,30,Tlaxcala,138,Papalotla de Xicoht�éncatl
+,,,,,,,,,,,,,,,,,,,301410000,30,Tlaxcala,141,Xicohtzinco
+,,,,,,,,,,,,,,,,,,,301440000,30,Tlaxcala,144,Zacatelco
+,,,,,,,,,,,,,,,,,,,301480000,30,Tlaxcala,148,Benito Ju�árez
+,,,,,,,,,,,,,,,,,,,301490000,30,Tlaxcala,149,La Magdalena Tlaltelulco
+,,,,,,,,,,,,,,,,,,,301510000,30,Tlaxcala,151,San Francisco Tetlanohcan
+,,,,,,,,,,,,,,,,,,,301570000,30,Tlaxcala,157,San Jer�ónimo Zacualpan
+,,,,,,,,,,,,,,,,,,,301600000,30,Tlaxcala,160,San Juan Huactzinco
+,,,,,,,,,,,,,,,,,,,301640000,30,Tlaxcala,164,San Lucas Tecopilco
+,,,,,,,,,,,,,,,,,,,301680000,30,Tlaxcala,168,Santa Ana Nopalucan
+,,,,,,,,,,,,,,,,,,,301690000,30,Tlaxcala,169,Santa Apolonia Teacalco
+,,,,,,,,,,,,,,,,,,,301750000,30,Tlaxcala,175,Santa Catarina Ayometla
+,,,,,,,,,,,,,,,,,,,301760000,30,Tlaxcala,176,Santa Isabel Xiloxoxtla
+,,,,,,,,,,,,,,,,,,,301770000,30,Veracruz de Ignacio de la Llave,177,Acayucan
+,,,,,,,,,,,,,,,,,,,301870000,30,Veracruz de Ignacio de la Llave,187,Amatl�án de los Reyes
+,,,,,,,,,,,,,,,,,,,301880000,30,Veracruz de Ignacio de la Llave,188,La Antigua
+,,,,,,,,,,,,,,,,,,,301890000,30,Veracruz de Ignacio de la Llave,189,Atzacan
+,,,,,,,,,,,,,,,,,,,301930000,30,Veracruz de Ignacio de la Llave,193,Tlaltetela
+,,,,,,,,,,,,,,,,,,,301940000,30,Veracruz de Ignacio de la Llave,194,Banderilla
+,,,,,,,,,,,,,,,,,,,301990000,30,Veracruz de Ignacio de la Llave,199,Boca del R�ío
+,,,,,,,,,,,,,,,,,,,302020000,30,Veracruz de Ignacio de la Llave,202,Camerino Z. Mendoza
+,,,,,,,,,,,,,,,,,,,302060000,30,Veracruz de Ignacio de la Llave,206,Citlalt�épetl
+,,,,,,,,,,,,,,,,,,,302070000,30,Veracruz de Ignacio de la Llave,207,Coatepec
+,,,,,,,,,,,,,,,,,,,302090000,30,Veracruz de Ignacio de la Llave,209,Coatzintla
+,,,,,,,,,,,,,,,,,,,302110000,30,Veracruz de Ignacio de la Llave,211,Comapa
+,,,,,,,,,,,,,,,,,,,310010000,31,Veracruz de Ignacio de la Llave,1,Cosoleacaque
+,,,,,,,,,,,,,,,,,,,310070000,31,Veracruz de Ignacio de la Llave,7,Coyutla
+,,,,,,,,,,,,,,,,,,,310080000,31,Veracruz de Ignacio de la Llave,8,Cuitl�áhuac
+,,,,,,,,,,,,,,,,,,,310130000,31,Veracruz de Ignacio de la Llave,13,Chinampa de Gorostiza
+,,,,,,,,,,,,,,,,,,,310180000,31,Veracruz de Ignacio de la Llave,18,Chontla
+,,,,,,,,,,,,,,,,,,,310190000,31,Veracruz de Ignacio de la Llave,19,Guti�érrez Zamora
+,,,,,,,,,,,,,,,,,,,310210000,31,Veracruz de Ignacio de la Llave,21,Hueyapan de Ocampo
+,,,,,,,,,,,,,,,,,,,310250000,31,Veracruz de Ignacio de la Llave,25,Ixtaczoquitl�án
+,,,,,,,,,,,,,,,,,,,310270000,31,Veracruz de Ignacio de la Llave,27,Mart�ínez de la Torre
+,,,,,,,,,,,,,,,,,,,310300000,31,Veracruz de Ignacio de la Llave,30,Medell�ín
+,,,,,,,,,,,,,,,,,,,310320000,31,Veracruz de Ignacio de la Llave,32,Minatitl�án
+,,,,,,,,,,,,,,,,,,,310330000,31,Veracruz de Ignacio de la Llave,33,Orizaba
+,,,,,,,,,,,,,,,,,,,310340000,31,Veracruz de Ignacio de la Llave,34,P�ánuco
+,,,,,,,,,,,,,,,,,,,310350000,31,Veracruz de Ignacio de la Llave,35,Papantla
+,,,,,,,,,,,,,,,,,,,310360000,31,Veracruz de Ignacio de la Llave,36,Poza Rica de Hidalgo
+,,,,,,,,,,,,,,,,,,,310380000,31,Veracruz de Ignacio de la Llave,38,Las Vigas de Ram�írez
+,,,,,,,,,,,,,,,,,,,310410000,31,Veracruz de Ignacio de la Llave,41,Pueblo Viejo
+,,,,,,,,,,,,,,,,,,,310460000,31,Veracruz de Ignacio de la Llave,46,Rafael Delgado
+,,,,,,,,,,,,,,,,,,,310500000,31,Veracruz de Ignacio de la Llave,50,R�ío Blanco
+,,,,,,,,,,,,,,,,,,,310520000,31,Veracruz de Ignacio de la Llave,52,San Andr�és Tuxtla
+,,,,,,,,,,,,,,,,,,,310540000,31,Veracruz de Ignacio de la Llave,54,Soteapan
+,,,,,,,,,,,,,,,,,,,310550000,31,Veracruz de Ignacio de la Llave,55,Tamiahua
+,,,,,,,,,,,,,,,,,,,310580000,31,Veracruz de Ignacio de la Llave,58,Teocelo
+,,,,,,,,,,,,,,,,,,,310590000,31,Veracruz de Ignacio de la Llave,59,Jos�é Azueta
+,,,,,,,,,,,,,,,,,,,310630000,31,Veracruz de Ignacio de la Llave,63,Tlacojalpan
+,,,,,,,,,,,,,,,,,,,310640000,31,Veracruz de Ignacio de la Llave,64,Totutla
+,,,,,,,,,,,,,,,,,,,310670000,31,Veracruz de Ignacio de la Llave,67,Tuxpan
+,,,,,,,,,,,,,,,,,,,310690000,31,Veracruz de Ignacio de la Llave,69,Villa Aldama
+,,,,,,,,,,,,,,,,,,,310730000,31,Veracruz de Ignacio de la Llave,73,Zaragoza
+,,,,,,,,,,,,,,,,,,,310760000,31,Veracruz de Ignacio de la Llave,76,Nanchital de L�ázaro C�árdenas del R�ío
+,,,,,,,,,,,,,,,,,,,310790000,31,Veracruz de Ignacio de la Llave,79,Tres Valles
+,,,,,,,,,,,,,,,,,,,310830000,31,Veracruz de Ignacio de la Llave,83,Tatahuicapan de Ju�árez
+,,,,,,,,,,,,,,,,,,,310850000,31,Yucat�án,85,Cacalch�én
+,,,,,,,,,,,,,,,,,,,310860000,31,Yucat�án,86,Calotmul
+,,,,,,,,,,,,,,,,,,,310890000,31,Yucat�án,89,Chapab
+,,,,,,,,,,,,,,,,,,,310910000,31,Yucat�án,91,Dz�án
+,,,,,,,,,,,,,,,,,,,310920000,31,Yucat�án,92,Dzidzant�ún
+,,,,,,,,,,,,,,,,,,,310930000,31,Yucat�án,93,Dzit�ás
+,,,,,,,,,,,,,,,,,,,310960000,31,Yucat�án,96,Halach�ó
+,,,,,,,,,,,,,,,,,,,310980000,31,Yucat�án,98,Hocab�á
+,,,,,,,,,,,,,,,,,,,311010000,31,Yucat�án,101,Hoct�ún
+,,,,,,,,,,,,,,,,,,,311020000,31,Yucat�án,102,Hunucm�á
+,,,,,,,,,,,,,,,,,,,311040000,31,Yucat�án,104,Kanas�ín
+,,,,,,,,,,,,,,,,,,,311060000,31,Yucat�án,106,Mama
+,,,,,,,,,,,,,,,,,,,320030000,32,Yucat�án,3,Muxupip
+,,,,,,,,,,,,,,,,,,,320050000,32,Yucat�án,5,Opich�én
+,,,,,,,,,,,,,,,,,,,320060000,32,Yucat�án,6,Peto
+,,,,,,,,,,,,,,,,,,,320100000,32,Yucat�án,10,Samahil
+,,,,,,,,,,,,,,,,,,,320130000,32,Yucat�án,13,Sanahcat
+,,,,,,,,,,,,,,,,,,,320160000,32,Yucat�án,16,Sey�é
+,,,,,,,,,,,,,,,,,,,320170000,32,Yucat�án,17,Sotuta
+,,,,,,,,,,,,,,,,,,,320180000,32,Yucat�án,18,Tahdzi�ú
+,,,,,,,,,,,,,,,,,,,320200000,32,Yucat�án,20,Telchac Puerto
+,,,,,,,,,,,,,,,,,,,320220000,32,Yucat�án,22,Tepak�án
+,,,,,,,,,,,,,,,,,,,320230000,32,Yucat�án,23,Tinum
+,,,,,,,,,,,,,,,,,,,320250000,32,Yucat�án,25,Tixcacalcupul
+,,,,,,,,,,,,,,,,,,,320290000,32,Yucat�án,29,Tixkokob
+,,,,,,,,,,,,,,,,,,,320310000,32,Yucat�án,31,Yaxcab�á
+,,,,,,,,,,,,,,,,,,,320340000,32,Yucat�án,34,Yoba�ín
+,,,,,,,,,,,,,,,,,,,320350000,32,Zacatecas,35,Atolinga
+,,,,,,,,,,,,,,,,,,,320360000,32,Zacatecas,36,Calera
+,,,,,,,,,,,,,,,,,,,320370000,32,Zacatecas,37,Ca�ñitas de Felipe Pescador
+,,,,,,,,,,,,,,,,,,,320380000,32,Zacatecas,38,General Enrique Estrada
+,,,,,,,,,,,,,,,,,,,320390000,32,Zacatecas,39,Huanusco
+,,,,,,,,,,,,,,,,,,,320400000,32,Zacatecas,40,Juan Aldama
+,,,,,,,,,,,,,,,,,,,320410000,32,Zacatecas,41,Luis Moya
+,,,,,,,,,,,,,,,,,,,320420000,32,Zacatecas,42,Monte Escobedo
+,,,,,,,,,,,,,,,,,,,320440000,32,Zacatecas,44,Nochistl�án de Mej�ía
+,,,,,,,,,,,,,,,,,,,320480000,32,Zacatecas,48,Noria de �Ángeles
+,,,,,,,,,,,,,,,,,,,320490000,32,Zacatecas,49,Ojocaliente
+,,,,,,,,,,,,,,,,,,,320500000,32,Zacatecas,50,R�ío Grande
+,,,,,,,,,,,,,,,,,,,320510000,32,Zacatecas,51,El Salvador
+,,,,,,,,,,,,,,,,,,,320530000,32,Zacatecas,53,Tlaltenango de S�ánchez Rom�án
+,,,,,,,,,,,,,,,,,,,320540000,32,Zacatecas,54,Villa Gonz�ález Ortega
+,,,,,,,,,,,,,,,,,,,320550000,32,Zacatecas,55,Villa Hidalgo
+,,,,,,,,,,,,,,,,,,,320560000,32,Zacatecas,56,Zacatecas
+,,,,,,,,,,,,,,,,,,,320570000,32,Zacatecas,57,Trancoso
+,,,,,,,,,,,,,,,,,,,320580000,32,Zacatecas,58,Santa Mar�ía de la Paz

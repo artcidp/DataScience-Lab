@@ -1,0 +1,163 @@
+--------------------------------------------------------------------------------
+Processing file 'ff_nn_v1.py'
+ outputting to 'ff_nn_v2.py'
+--------------------------------------------------------------------------------
+
+'ff_nn_v1.py' Line 11
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.placeholder' to 'tf.compat.v1.placeholder'
+
+    Old:         X = tf.placeholder(tf.float32, [None, 784],name='x_data') 
+                     ~~~~~~~~~~~~~~                                         
+    New:         X = tf.compat.v1.placeholder(tf.float32, [None, 784],name='x_data') 
+                     ~~~~~~~~~~~~~~~~~~~~~~~~                                         
+
+'ff_nn_v1.py' Line 12
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.placeholder' to 'tf.compat.v1.placeholder'
+
+    Old:         Ydata = tf.placeholder(tf.float32, [None, 10],name='y_data') 
+                         ~~~~~~~~~~~~~~                                        
+    New:         Ydata = tf.compat.v1.placeholder(tf.float32, [None, 10],name='y_data') 
+                         ~~~~~~~~~~~~~~~~~~~~~~~~                                        
+
+'ff_nn_v1.py' Line 17
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.summary.histogram' to 'tf.compat.v1.summary.histogram'
+
+    Old:             tf.summary.histogram("wieghts",W)
+                     ~~~~~~~~~~~~~~~~~~~~              
+    New:             tf.compat.v1.summary.histogram("wieghts",W)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              
+
+'ff_nn_v1.py' Line 20
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.summary.histogram' to 'tf.compat.v1.summary.histogram'
+
+    Old:             tf.summary.histogram("biases",b)
+                     ~~~~~~~~~~~~~~~~~~~~             
+    New:             tf.compat.v1.summary.histogram("biases",b)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+
+'ff_nn_v1.py' Line 23
+--------------------------------------------------------------------------------
+
+Added keyword 'a' to reordered function 'tf.transpose'
+Added keyword 'a' to reordered function 'tf.transpose'
+
+    Old:     sumation=tf.transpose(tf.transpose(prod) + b) #sumar b verticalmente con broadcasting
+                                                                                                   
+    New:     sumation=tf.transpose(a=tf.transpose(a=prod) + b) #sumar b verticalmente con broadcasting
+                                   ~~             ~~                                                   
+
+'ff_nn_v1.py' Line 27
+--------------------------------------------------------------------------------
+
+Added keyword 'a' to reordered function 'tf.transpose'
+
+    Old:             Ymod = tf.nn.softmax(tf.transpose(sumation),name="y_mod") 
+                                                                                
+    New:             Ymod = tf.nn.softmax(tf.transpose(a=sumation),name="y_mod") 
+                                                       ~~                         
+
+'ff_nn_v1.py' Line 29
+--------------------------------------------------------------------------------
+
+Added keyword 'input_tensor' to reordered function 'tf.reduce_mean'
+Added keyword 'input_tensor' to reordered function 'tf.reduce_sum'
+Renamed function 'tf.log' to 'tf.math.log'
+Renamed keyword argument from 'reduction_indices' to 'axis'
+
+    Old:             cross_entropy = tf.reduce_mean(-tf.reduce_sum(Ydata * tf.log(Ymod), reduction_indices=[1])) 
+                                                                           ~~~~~~        ~~~~~~~~~~~~~~~~~~       
+    New:             cross_entropy = tf.reduce_mean(input_tensor=-tf.reduce_sum(input_tensor=Ydata * tf.math.log(Ymod), axis=[1])) 
+                                                    ~~~~~~~~~~~~~               ~~~~~~~~~~~~~        ~~~~~~~~~~~        ~~~~~       
+
+'ff_nn_v1.py' Line 30
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.summary.scalar' to 'tf.compat.v1.summary.scalar'
+
+    Old:             tf.summary.scalar("cross_entropy",cross_entropy)
+                     ~~~~~~~~~~~~~~~~~                                
+    New:             tf.compat.v1.summary.scalar("cross_entropy",cross_entropy)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~                                
+
+'ff_nn_v1.py' Line 32
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.train.GradientDescentOptimizer' to 'tf.compat.v1.train.GradientDescentOptimizer'
+
+    Old:         train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                              
+    New:         train_step = tf.compat.v1.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                              
+
+'ff_nn_v1.py' Line 33
+--------------------------------------------------------------------------------
+
+Added keyword 'input' to reordered function 'tf.argmax'
+Added keyword 'axis' to reordered function 'tf.argmax'
+Added keyword 'input' to reordered function 'tf.argmax'
+Added keyword 'axis' to reordered function 'tf.argmax'
+
+    Old:         correct_prediction = tf.equal(tf.argmax(Ymod,1), tf.argmax(Ydata,1)) 
+                                                                                       
+    New:         correct_prediction = tf.equal(tf.argmax(input=Ymod,axis=1), tf.argmax(input=Ydata,axis=1)) 
+                                                         ~~~~~~     ~~~~~              ~~~~~~      ~~~~~     
+
+'ff_nn_v1.py' Line 36
+--------------------------------------------------------------------------------
+
+Added keyword 'input_tensor' to reordered function 'tf.reduce_mean'
+
+    Old:             accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32)) 
+                                                                                         
+    New:             accuracy = tf.reduce_mean(input_tensor=tf.cast(correct_prediction, tf.float32)) 
+                                               ~~~~~~~~~~~~~                                          
+
+'ff_nn_v1.py' Line 37
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.summary.scalar' to 'tf.compat.v1.summary.scalar'
+
+    Old:             tf.summary.scalar("accuracy",accuracy)
+                     ~~~~~~~~~~~~~~~~~                      
+    New:             tf.compat.v1.summary.scalar("accuracy",accuracy)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~                      
+
+'ff_nn_v1.py' Line 46
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.Session' to 'tf.compat.v1.Session'
+
+    Old: with tf.Session(graph=g_train2) as sess2:
+              ~~~~~~~~~~                           
+    New: with tf.compat.v1.Session(graph=g_train2) as sess2:
+              ~~~~~~~~~~~~~~~~~~~~                           
+
+'ff_nn_v1.py' Line 54
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.summary.merge_all' to 'tf.compat.v1.summary.merge_all'
+
+    Old:     merged=tf.summary.merge_all()
+                    ~~~~~~~~~~~~~~~~~~~~   
+    New:     merged=tf.compat.v1.summary.merge_all()
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+
+'ff_nn_v1.py' Line 57
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+
+    Old:     tf.global_variables_initializer().run()
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+    New:     tf.compat.v1.global_variables_initializer().run()
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+
+

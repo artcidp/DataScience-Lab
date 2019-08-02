@@ -1,0 +1,12 @@
+digraph  {
+A [color=Blue, fontcolor=white, pos="100,100", shape=circle, style=filled, width="0.75"];
+B [color=Red, fontcolor=white, pos="-100,100", shape=circle, style=filled, width="0.75"];
+C [color=Blue, fontcolor=white, pos="-100,-100", shape=circle, style=filled, width="0.75"];
+D [color=Red, fontcolor=white, pos="100,-100", shape=circle, style=filled, width="0.75"];
+A -> A  [color=Blue, key=0, label="AA"];
+A -> B  [color=Red, key=0, label="AB"];
+A -> D  [color=Blue, key=0, label="AD"];
+B -> A  [color=Blue, key=0, label="BA"];
+B -> C  [color=Blue, key=0, label="BC"];
+C -> D  [color=Red, key=0, label="CD"];
+}

@@ -1,0 +1,104 @@
+Notas:
+
+
+https://www.kaggle.com/haimfeld87/detecting-credit-card-frauds
+
+#########Columns################
+
+Time
+
+Number of seconds elapsed between each transaction (over two days)
+numeric
+V1
+No description provided
+numeric
+V2
+No description provided
+numeric
+V3
+No description provided
+numeric
+V4
+No description provided
+numeric
+V5
+No description provided
+numeric
+V6
+No description provided
+numeric
+V7
+No description provided
+numeric
+V8
+No description provided
+numeric
+V9
+No description provided
+numeric
+V10
+No description provided
+numeric
+V11
+No description provided
+numeric
+V12
+No description provided
+numeric
+V13
+No description provided
+numeric
+V14
+No description provided
+numeric
+V15
+No description provided
+numeric
+V16
+No description provided
+numeric
+V17
+No description provided
+numeric
+V18
+No description provided
+numeric
+V19
+No description provided
+numeric
+V20
+No description provided
+numeric
+V21
+No description provided
+numeric
+V22
+No description provided
+numeric
+V23
+No description provided
+numeric
+V24
+No description provided
+numeric
+V25
+No description provided
+numeric
+V26
+No description provided
+numeric
+V27
+No description provided
+numeric
+V28
+
+abc
+numeric
+Amount
+
+Amount of money for this transaction
+numeric
+Class
+
+Fraud or Not-Fraud
+numeric
